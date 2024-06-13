@@ -1,0 +1,1017 @@
+2020-12-28 18:59:43 DEBUG BasicClientConnectionManager:161 - Get connection for route {s}->https://gorest.co.in:443
+2020-12-28 18:59:43 DEBUG DefaultClientConnectionOperator:177 - Connecting to gorest.co.in:443
+2020-12-28 18:59:44 DEBUG RequestAddCookies:123 - CookieSpec selected: ignoreCookies
+2020-12-28 18:59:44 DEBUG RequestAuthCache:77 - Auth cache not set in the context
+2020-12-28 18:59:44 DEBUG RequestProxyAuthentication:89 - Proxy auth state: UNCHALLENGED
+2020-12-28 18:59:44 DEBUG DefaultHttpClient:682 - Attempt 1 to execute request
+2020-12-28 18:59:44 DEBUG DefaultClientConnection:274 - Sending request: POST /public-api/users HTTP/1.1
+2020-12-28 18:59:44 DEBUG wire:73 -  >> "POST /public-api/users HTTP/1.1[\r][\n]"
+2020-12-28 18:59:44 DEBUG wire:73 -  >> "Authorization: Bearer 97bc2de143d3dcf505355d7ad09170f5f3f1c3e707a445f9513380aa30b1db84[\r][\n]"
+2020-12-28 18:59:44 DEBUG wire:73 -  >> "Accept: */*[\r][\n]"
+2020-12-28 18:59:44 DEBUG wire:73 -  >> "Content-Type: application/json; charset=UTF-8[\r][\n]"
+2020-12-28 18:59:44 DEBUG wire:73 -  >> "Content-Length: 93[\r][\n]"
+2020-12-28 18:59:44 DEBUG wire:73 -  >> "Host: gorest.co.in[\r][\n]"
+2020-12-28 18:59:44 DEBUG wire:73 -  >> "Connection: Keep-Alive[\r][\n]"
+2020-12-28 18:59:44 DEBUG wire:73 -  >> "User-Agent: Apache-HttpClient/4.5.3 (Java/14.0.2)[\r][\n]"
+2020-12-28 18:59:44 DEBUG wire:73 -  >> "Accept-Encoding: gzip,deflate[\r][\n]"
+2020-12-28 18:59:44 DEBUG wire:73 -  >> "[\r][\n]"
+2020-12-28 18:59:44 DEBUG headers:278 - >> POST /public-api/users HTTP/1.1
+2020-12-28 18:59:44 DEBUG headers:281 - >> Authorization: Bearer 97bc2de143d3dcf505355d7ad09170f5f3f1c3e707a445f9513380aa30b1db84
+2020-12-28 18:59:44 DEBUG headers:281 - >> Accept: */*
+2020-12-28 18:59:44 DEBUG headers:281 - >> Content-Type: application/json; charset=UTF-8
+2020-12-28 18:59:44 DEBUG headers:281 - >> Content-Length: 93
+2020-12-28 18:59:44 DEBUG headers:281 - >> Host: gorest.co.in
+2020-12-28 18:59:44 DEBUG headers:281 - >> Connection: Keep-Alive
+2020-12-28 18:59:44 DEBUG headers:281 - >> User-Agent: Apache-HttpClient/4.5.3 (Java/14.0.2)
+2020-12-28 18:59:44 DEBUG headers:281 - >> Accept-Encoding: gzip,deflate
+2020-12-28 18:59:44 DEBUG wire:87 -  >> "{"gender":"Male","name":"Saurabh","email":"saurabh1234455664512@gmail.com","status":"Active"}"
+2020-12-28 18:59:44 DEBUG wire:73 -  << "HTTP/1.1 200 OK[\r][\n]"
+2020-12-28 18:59:44 DEBUG wire:73 -  << "Server: nginx[\r][\n]"
+2020-12-28 18:59:44 DEBUG wire:73 -  << "Date: Mon, 28 Dec 2020 13:29:44 GMT[\r][\n]"
+2020-12-28 18:59:44 DEBUG wire:73 -  << "Content-Type: application/json; charset=utf-8[\r][\n]"
+2020-12-28 18:59:44 DEBUG wire:73 -  << "Transfer-Encoding: chunked[\r][\n]"
+2020-12-28 18:59:44 DEBUG wire:73 -  << "Connection: keep-alive[\r][\n]"
+2020-12-28 18:59:44 DEBUG wire:73 -  << "Vary: Accept-Encoding[\r][\n]"
+2020-12-28 18:59:44 DEBUG wire:73 -  << "X-Frame-Options: SAMEORIGIN[\r][\n]"
+2020-12-28 18:59:44 DEBUG wire:73 -  << "X-XSS-Protection: 1; mode=block[\r][\n]"
+2020-12-28 18:59:44 DEBUG wire:73 -  << "X-Content-Type-Options: nosniff[\r][\n]"
+2020-12-28 18:59:44 DEBUG wire:73 -  << "X-Download-Options: noopen[\r][\n]"
+2020-12-28 18:59:44 DEBUG wire:73 -  << "X-Permitted-Cross-Domain-Policies: none[\r][\n]"
+2020-12-28 18:59:44 DEBUG wire:73 -  << "Referrer-Policy: strict-origin-when-cross-origin[\r][\n]"
+2020-12-28 18:59:44 DEBUG wire:73 -  << "Location: https://gorest.co.in/public-api/users/1594[\r][\n]"
+2020-12-28 18:59:44 DEBUG wire:73 -  << "ETag: W/"f4023f7fb6ef8d8d207ae9b4f2b64742"[\r][\n]"
+2020-12-28 18:59:44 DEBUG wire:73 -  << "Cache-Control: max-age=0, private, must-revalidate[\r][\n]"
+2020-12-28 18:59:44 DEBUG wire:73 -  << "X-Request-Id: 447e3c5b-a32f-4ade-9124-a15af50c5949[\r][\n]"
+2020-12-28 18:59:44 DEBUG wire:73 -  << "X-Runtime: 0.014953[\r][\n]"
+2020-12-28 18:59:44 DEBUG wire:73 -  << "Strict-Transport-Security: max-age=31536000; includeSubDomains[\r][\n]"
+2020-12-28 18:59:44 DEBUG wire:73 -  << "Vary: Origin[\r][\n]"
+2020-12-28 18:59:44 DEBUG wire:73 -  << "X-Frame-Options: sameorigin[\r][\n]"
+2020-12-28 18:59:44 DEBUG wire:73 -  << "Expect-CT: enforce; max-age=3600[\r][\n]"
+2020-12-28 18:59:44 DEBUG wire:73 -  << "Content-Encoding: gzip[\r][\n]"
+2020-12-28 18:59:44 DEBUG wire:73 -  << "[\r][\n]"
+2020-12-28 18:59:44 DEBUG DefaultClientConnection:259 - Receiving response: HTTP/1.1 200 OK
+2020-12-28 18:59:44 DEBUG headers:262 - << HTTP/1.1 200 OK
+2020-12-28 18:59:44 DEBUG headers:265 - << Server: nginx
+2020-12-28 18:59:44 DEBUG headers:265 - << Date: Mon, 28 Dec 2020 13:29:44 GMT
+2020-12-28 18:59:44 DEBUG headers:265 - << Content-Type: application/json; charset=utf-8
+2020-12-28 18:59:44 DEBUG headers:265 - << Transfer-Encoding: chunked
+2020-12-28 18:59:44 DEBUG headers:265 - << Connection: keep-alive
+2020-12-28 18:59:44 DEBUG headers:265 - << Vary: Accept-Encoding
+2020-12-28 18:59:44 DEBUG headers:265 - << X-Frame-Options: SAMEORIGIN
+2020-12-28 18:59:44 DEBUG headers:265 - << X-XSS-Protection: 1; mode=block
+2020-12-28 18:59:44 DEBUG headers:265 - << X-Content-Type-Options: nosniff
+2020-12-28 18:59:44 DEBUG headers:265 - << X-Download-Options: noopen
+2020-12-28 18:59:44 DEBUG headers:265 - << X-Permitted-Cross-Domain-Policies: none
+2020-12-28 18:59:44 DEBUG headers:265 - << Referrer-Policy: strict-origin-when-cross-origin
+2020-12-28 18:59:44 DEBUG headers:265 - << Location: https://gorest.co.in/public-api/users/1594
+2020-12-28 18:59:44 DEBUG headers:265 - << ETag: W/"f4023f7fb6ef8d8d207ae9b4f2b64742"
+2020-12-28 18:59:44 DEBUG headers:265 - << Cache-Control: max-age=0, private, must-revalidate
+2020-12-28 18:59:44 DEBUG headers:265 - << X-Request-Id: 447e3c5b-a32f-4ade-9124-a15af50c5949
+2020-12-28 18:59:44 DEBUG headers:265 - << X-Runtime: 0.014953
+2020-12-28 18:59:44 DEBUG headers:265 - << Strict-Transport-Security: max-age=31536000; includeSubDomains
+2020-12-28 18:59:44 DEBUG headers:265 - << Vary: Origin
+2020-12-28 18:59:44 DEBUG headers:265 - << X-Frame-Options: sameorigin
+2020-12-28 18:59:44 DEBUG headers:265 - << Expect-CT: enforce; max-age=3600
+2020-12-28 18:59:44 DEBUG headers:265 - << Content-Encoding: gzip
+2020-12-28 18:59:44 DEBUG DefaultHttpClient:509 - Connection can be kept alive indefinitely
+2020-12-28 18:59:44 DEBUG RequestSpecificationImpl$RestAssuredHttpBuilder:545 - Parsing response as: application/json; charset=utf-8
+2020-12-28 18:59:44 DEBUG wire:73 -  << "a9[\r][\n]"
+2020-12-28 18:59:44 DEBUG wire:87 -  << "[0x1f][0x8b][0x8][0x0][0x0][0x0][0x0][0x0][0x0][0x3][0x8d][0xca]A[0xe][0x82]0[0x10][0x85][0xe1][0xbb][0xcc][0xd6]B[0xda][0xd2][0x12][0xe8]J[0xf][0xe0]J[0xf7]fl'H[0xd2][0x82][0x81][0xd6][\r][0xe1][0xee][0xe][0xf1][0x2][0xee][0xe6][0xfd][0xf3]m[0xe0][0xe7]@[0xe0][0xb4]T[0x2][0x12]e[0x4]7[0x95][0x18][0x5][0x4]<[0xee][\r][0xc6][0x0]N[0xd9][0xde][0x8][0x98]01[0x84][0x1b][0x96][0x5][0x9f]/[0x10]@[0x9][0xc7][0xc8]e[0xfd][0x15][0xa5][0x1b]c[0xac]m[c[0x95]>[0xf][0xc7][0xb3][0xf6]sb8[0xd0][0x14]hay[0xc5]H[0xbc][0xd7][0x8c][0xb9][0xac][0xbc]/>[0x8f][0x9f][0xa3][0xf8][0x85]0Sx`[0xe6][0xaa][0xa5][0x96][0x95][0xd2][0x95][0xee][0xee][0xaa]s[0xb6]w[0xc6][0xd4]F[0xca][0x93][0xb4][0xae][0x91][0x8c][0xcb];[0xfc][0x8b][0xf7][0xfd][0xb]W[0x96]b[0xd0][0xe1][0x0][0x0][0x0]"
+2020-12-28 18:59:44 DEBUG wire:73 -  << "[\r][\n]"
+2020-12-28 18:59:44 DEBUG wire:73 -  << "0[\r][\n]"
+2020-12-28 18:59:44 DEBUG wire:73 -  << "[\r][\n]"
+2020-12-28 18:59:44 DEBUG RequestSpecificationImpl$RestAssuredHttpBuilder:548 - Parsed data to instance of: class org.apache.http.conn.EofSensorInputStream
+2020-12-28 18:59:44 DEBUG BasicClientConnectionManager:200 - Releasing connection org.apache.http.impl.conn.ManagedClientConnectionImpl@5584d9c6
+2020-12-28 18:59:44 DEBUG BasicClientConnectionManager:225 - Connection can be kept alive indefinitely
+2020-12-28 18:59:45 DEBUG BasicClientConnectionManager:161 - Get connection for route {s}->https://gorest.co.in:443
+2020-12-28 18:59:45 DEBUG DefaultClientConnectionOperator:177 - Connecting to gorest.co.in:443
+2020-12-28 18:59:45 DEBUG RequestAddCookies:123 - CookieSpec selected: ignoreCookies
+2020-12-28 18:59:45 DEBUG RequestAuthCache:77 - Auth cache not set in the context
+2020-12-28 18:59:45 DEBUG RequestProxyAuthentication:89 - Proxy auth state: UNCHALLENGED
+2020-12-28 18:59:45 DEBUG DefaultHttpClient:682 - Attempt 1 to execute request
+2020-12-28 18:59:45 DEBUG DefaultClientConnection:274 - Sending request: GET /public-api/users/1594 HTTP/1.1
+2020-12-28 18:59:45 DEBUG wire:73 -  >> "GET /public-api/users/1594 HTTP/1.1[\r][\n]"
+2020-12-28 18:59:45 DEBUG wire:73 -  >> "Content-Type: application/json; charset=UTF-8[\r][\n]"
+2020-12-28 18:59:45 DEBUG wire:73 -  >> "Authorization: Bearer 97bc2de143d3dcf505355d7ad09170f5f3f1c3e707a445f9513380aa30b1db84[\r][\n]"
+2020-12-28 18:59:45 DEBUG wire:73 -  >> "Accept: */*[\r][\n]"
+2020-12-28 18:59:45 DEBUG wire:73 -  >> "Host: gorest.co.in[\r][\n]"
+2020-12-28 18:59:45 DEBUG wire:73 -  >> "Connection: Keep-Alive[\r][\n]"
+2020-12-28 18:59:45 DEBUG wire:73 -  >> "User-Agent: Apache-HttpClient/4.5.3 (Java/14.0.2)[\r][\n]"
+2020-12-28 18:59:45 DEBUG wire:73 -  >> "Accept-Encoding: gzip,deflate[\r][\n]"
+2020-12-28 18:59:45 DEBUG wire:73 -  >> "[\r][\n]"
+2020-12-28 18:59:45 DEBUG headers:278 - >> GET /public-api/users/1594 HTTP/1.1
+2020-12-28 18:59:45 DEBUG headers:281 - >> Content-Type: application/json; charset=UTF-8
+2020-12-28 18:59:45 DEBUG headers:281 - >> Authorization: Bearer 97bc2de143d3dcf505355d7ad09170f5f3f1c3e707a445f9513380aa30b1db84
+2020-12-28 18:59:45 DEBUG headers:281 - >> Accept: */*
+2020-12-28 18:59:45 DEBUG headers:281 - >> Host: gorest.co.in
+2020-12-28 18:59:45 DEBUG headers:281 - >> Connection: Keep-Alive
+2020-12-28 18:59:45 DEBUG headers:281 - >> User-Agent: Apache-HttpClient/4.5.3 (Java/14.0.2)
+2020-12-28 18:59:45 DEBUG headers:281 - >> Accept-Encoding: gzip,deflate
+2020-12-28 18:59:45 DEBUG wire:73 -  << "HTTP/1.1 200 OK[\r][\n]"
+2020-12-28 18:59:45 DEBUG wire:73 -  << "Server: nginx[\r][\n]"
+2020-12-28 18:59:45 DEBUG wire:73 -  << "Date: Mon, 28 Dec 2020 13:29:45 GMT[\r][\n]"
+2020-12-28 18:59:45 DEBUG wire:73 -  << "Content-Type: application/json; charset=utf-8[\r][\n]"
+2020-12-28 18:59:45 DEBUG wire:73 -  << "Transfer-Encoding: chunked[\r][\n]"
+2020-12-28 18:59:45 DEBUG wire:73 -  << "Connection: keep-alive[\r][\n]"
+2020-12-28 18:59:45 DEBUG wire:73 -  << "Vary: Accept-Encoding[\r][\n]"
+2020-12-28 18:59:45 DEBUG wire:73 -  << "X-Frame-Options: SAMEORIGIN[\r][\n]"
+2020-12-28 18:59:45 DEBUG wire:73 -  << "X-XSS-Protection: 1; mode=block[\r][\n]"
+2020-12-28 18:59:45 DEBUG wire:73 -  << "X-Content-Type-Options: nosniff[\r][\n]"
+2020-12-28 18:59:45 DEBUG wire:73 -  << "X-Download-Options: noopen[\r][\n]"
+2020-12-28 18:59:45 DEBUG wire:73 -  << "X-Permitted-Cross-Domain-Policies: none[\r][\n]"
+2020-12-28 18:59:45 DEBUG wire:73 -  << "Referrer-Policy: strict-origin-when-cross-origin[\r][\n]"
+2020-12-28 18:59:45 DEBUG wire:73 -  << "ETag: W/"cd16016f4da3b3ab179df51204d45016"[\r][\n]"
+2020-12-28 18:59:45 DEBUG wire:73 -  << "Cache-Control: max-age=0, private, must-revalidate[\r][\n]"
+2020-12-28 18:59:45 DEBUG wire:73 -  << "X-Request-Id: 6c217798-e01f-4ccf-a1eb-0f0d14e80054[\r][\n]"
+2020-12-28 18:59:45 DEBUG wire:73 -  << "X-Runtime: 0.013393[\r][\n]"
+2020-12-28 18:59:45 DEBUG wire:73 -  << "Strict-Transport-Security: max-age=31536000; includeSubDomains[\r][\n]"
+2020-12-28 18:59:45 DEBUG wire:73 -  << "Vary: Origin[\r][\n]"
+2020-12-28 18:59:45 DEBUG wire:73 -  << "X-Frame-Options: sameorigin[\r][\n]"
+2020-12-28 18:59:45 DEBUG wire:73 -  << "Expect-CT: enforce; max-age=3600[\r][\n]"
+2020-12-28 18:59:45 DEBUG wire:73 -  << "Content-Encoding: gzip[\r][\n]"
+2020-12-28 18:59:45 DEBUG wire:73 -  << "[\r][\n]"
+2020-12-28 18:59:45 DEBUG DefaultClientConnection:259 - Receiving response: HTTP/1.1 200 OK
+2020-12-28 18:59:45 DEBUG headers:262 - << HTTP/1.1 200 OK
+2020-12-28 18:59:45 DEBUG headers:265 - << Server: nginx
+2020-12-28 18:59:45 DEBUG headers:265 - << Date: Mon, 28 Dec 2020 13:29:45 GMT
+2020-12-28 18:59:45 DEBUG headers:265 - << Content-Type: application/json; charset=utf-8
+2020-12-28 18:59:45 DEBUG headers:265 - << Transfer-Encoding: chunked
+2020-12-28 18:59:45 DEBUG headers:265 - << Connection: keep-alive
+2020-12-28 18:59:45 DEBUG headers:265 - << Vary: Accept-Encoding
+2020-12-28 18:59:45 DEBUG headers:265 - << X-Frame-Options: SAMEORIGIN
+2020-12-28 18:59:45 DEBUG headers:265 - << X-XSS-Protection: 1; mode=block
+2020-12-28 18:59:45 DEBUG headers:265 - << X-Content-Type-Options: nosniff
+2020-12-28 18:59:45 DEBUG headers:265 - << X-Download-Options: noopen
+2020-12-28 18:59:45 DEBUG headers:265 - << X-Permitted-Cross-Domain-Policies: none
+2020-12-28 18:59:45 DEBUG headers:265 - << Referrer-Policy: strict-origin-when-cross-origin
+2020-12-28 18:59:45 DEBUG headers:265 - << ETag: W/"cd16016f4da3b3ab179df51204d45016"
+2020-12-28 18:59:45 DEBUG headers:265 - << Cache-Control: max-age=0, private, must-revalidate
+2020-12-28 18:59:45 DEBUG headers:265 - << X-Request-Id: 6c217798-e01f-4ccf-a1eb-0f0d14e80054
+2020-12-28 18:59:45 DEBUG headers:265 - << X-Runtime: 0.013393
+2020-12-28 18:59:45 DEBUG headers:265 - << Strict-Transport-Security: max-age=31536000; includeSubDomains
+2020-12-28 18:59:45 DEBUG headers:265 - << Vary: Origin
+2020-12-28 18:59:45 DEBUG headers:265 - << X-Frame-Options: sameorigin
+2020-12-28 18:59:45 DEBUG headers:265 - << Expect-CT: enforce; max-age=3600
+2020-12-28 18:59:45 DEBUG headers:265 - << Content-Encoding: gzip
+2020-12-28 18:59:45 DEBUG DefaultHttpClient:509 - Connection can be kept alive indefinitely
+2020-12-28 18:59:45 DEBUG RequestSpecificationImpl$RestAssuredHttpBuilder:545 - Parsing response as: application/json; charset=utf-8
+2020-12-28 18:59:45 DEBUG wire:73 -  << "a9[\r][\n]"
+2020-12-28 18:59:45 DEBUG wire:87 -  << "[0x1f][0x8b][0x8][0x0][0x0][0x0][0x0][0x0][0x0][0x3][0x8d][0xca]A[0xe][0x82]0[0x10][0x85][0xe1][0xbb][0xcc][0xd6]B[0xda][0xd2][0x12][0xe8]J[0xf][0xe0]J[0xf7]fl'H[0xd2][0x82][0x81][0xd6][\r][0xe1][0xee][0xe][0xf1][0x2][0xee][0xe6][0xfd][0xf3]m[0xe0][0xe7]@[0xe0][0xb4][0x94][0x2][0x12]e[0x4]7[0x95][0x18][0x5][0x4]<[0xee][\r][0xc6][0x0]N[0xd9][0xde][0x8][0x98]01[0x84][0x1b][0x96][0x5][0x9f]/[0x10]@[0x9][0xc7][0xc8]e[0xfd][0x15][0xa5][0x1b]c[0xac]m[c[0x95]>[0xf][0xc7][0xb3][0xf6]sb8[0xd0][0x14]hay[0xc5]H[0xbc][0xd7][0x8c][0xb9][0xac][0xbc]/>[0x8f][0x9f][0xa3][0xf8][0x85]0Sx`[0xe6][0xaa][0xa5][0x96][0x95][0xd2][0x95][0xee][0xee][0xaa]s[0xb6]w[0xc6][0xd4]F[0xca][0x93][0xb4][0xae][0x91][0x8c][0xcb];[0xfc][0x8b][0xf7][0xfd][0xb][0xcf]][0x2][0x84][0xe1][0x0][0x0][0x0]"
+2020-12-28 18:59:45 DEBUG wire:73 -  << "[\r][\n]"
+2020-12-28 18:59:45 DEBUG wire:73 -  << "0[\r][\n]"
+2020-12-28 18:59:45 DEBUG wire:73 -  << "[\r][\n]"
+2020-12-28 18:59:45 DEBUG RequestSpecificationImpl$RestAssuredHttpBuilder:548 - Parsed data to instance of: class org.apache.http.conn.EofSensorInputStream
+2020-12-28 18:59:45 DEBUG BasicClientConnectionManager:200 - Releasing connection org.apache.http.impl.conn.ManagedClientConnectionImpl@27a6fef2
+2020-12-28 18:59:45 DEBUG BasicClientConnectionManager:225 - Connection can be kept alive indefinitely
+2020-12-28 18:59:45 DEBUG BasicClientConnectionManager:161 - Get connection for route {s}->https://gorest.co.in:443
+2020-12-28 18:59:45 DEBUG DefaultClientConnectionOperator:177 - Connecting to gorest.co.in:443
+2020-12-28 18:59:46 DEBUG RequestAddCookies:123 - CookieSpec selected: ignoreCookies
+2020-12-28 18:59:46 DEBUG RequestAuthCache:77 - Auth cache not set in the context
+2020-12-28 18:59:46 DEBUG RequestProxyAuthentication:89 - Proxy auth state: UNCHALLENGED
+2020-12-28 18:59:46 DEBUG DefaultHttpClient:682 - Attempt 1 to execute request
+2020-12-28 18:59:46 DEBUG DefaultClientConnection:274 - Sending request: GET /public-api/users/123456789 HTTP/1.1
+2020-12-28 18:59:46 DEBUG wire:73 -  >> "GET /public-api/users/123456789 HTTP/1.1[\r][\n]"
+2020-12-28 18:59:46 DEBUG wire:73 -  >> "Content-Type: application/json; charset=UTF-8[\r][\n]"
+2020-12-28 18:59:46 DEBUG wire:73 -  >> "Authorization: Bearer 97bc2de143d3dcf505355d7ad09170f5f3f1c3e707a445f9513380aa30b1db84[\r][\n]"
+2020-12-28 18:59:46 DEBUG wire:73 -  >> "Accept: */*[\r][\n]"
+2020-12-28 18:59:46 DEBUG wire:73 -  >> "Host: gorest.co.in[\r][\n]"
+2020-12-28 18:59:46 DEBUG wire:73 -  >> "Connection: Keep-Alive[\r][\n]"
+2020-12-28 18:59:46 DEBUG wire:73 -  >> "User-Agent: Apache-HttpClient/4.5.3 (Java/14.0.2)[\r][\n]"
+2020-12-28 18:59:46 DEBUG wire:73 -  >> "Accept-Encoding: gzip,deflate[\r][\n]"
+2020-12-28 18:59:46 DEBUG wire:73 -  >> "[\r][\n]"
+2020-12-28 18:59:46 DEBUG headers:278 - >> GET /public-api/users/123456789 HTTP/1.1
+2020-12-28 18:59:46 DEBUG headers:281 - >> Content-Type: application/json; charset=UTF-8
+2020-12-28 18:59:46 DEBUG headers:281 - >> Authorization: Bearer 97bc2de143d3dcf505355d7ad09170f5f3f1c3e707a445f9513380aa30b1db84
+2020-12-28 18:59:46 DEBUG headers:281 - >> Accept: */*
+2020-12-28 18:59:46 DEBUG headers:281 - >> Host: gorest.co.in
+2020-12-28 18:59:46 DEBUG headers:281 - >> Connection: Keep-Alive
+2020-12-28 18:59:46 DEBUG headers:281 - >> User-Agent: Apache-HttpClient/4.5.3 (Java/14.0.2)
+2020-12-28 18:59:46 DEBUG headers:281 - >> Accept-Encoding: gzip,deflate
+2020-12-28 18:59:46 DEBUG wire:73 -  << "HTTP/1.1 200 OK[\r][\n]"
+2020-12-28 18:59:46 DEBUG wire:73 -  << "Server: nginx[\r][\n]"
+2020-12-28 18:59:46 DEBUG wire:73 -  << "Date: Mon, 28 Dec 2020 13:29:46 GMT[\r][\n]"
+2020-12-28 18:59:46 DEBUG wire:73 -  << "Content-Type: application/json; charset=utf-8[\r][\n]"
+2020-12-28 18:59:46 DEBUG wire:73 -  << "Transfer-Encoding: chunked[\r][\n]"
+2020-12-28 18:59:46 DEBUG wire:73 -  << "Connection: keep-alive[\r][\n]"
+2020-12-28 18:59:46 DEBUG wire:73 -  << "Vary: Accept-Encoding[\r][\n]"
+2020-12-28 18:59:46 DEBUG wire:73 -  << "X-Frame-Options: SAMEORIGIN[\r][\n]"
+2020-12-28 18:59:46 DEBUG wire:73 -  << "X-XSS-Protection: 1; mode=block[\r][\n]"
+2020-12-28 18:59:46 DEBUG wire:73 -  << "X-Content-Type-Options: nosniff[\r][\n]"
+2020-12-28 18:59:46 DEBUG wire:73 -  << "X-Download-Options: noopen[\r][\n]"
+2020-12-28 18:59:46 DEBUG wire:73 -  << "X-Permitted-Cross-Domain-Policies: none[\r][\n]"
+2020-12-28 18:59:46 DEBUG wire:73 -  << "Referrer-Policy: strict-origin-when-cross-origin[\r][\n]"
+2020-12-28 18:59:46 DEBUG wire:73 -  << "ETag: W/"b654e1cd0d3be5d471e57be8f71a8543"[\r][\n]"
+2020-12-28 18:59:46 DEBUG wire:73 -  << "Cache-Control: max-age=0, private, must-revalidate[\r][\n]"
+2020-12-28 18:59:46 DEBUG wire:73 -  << "X-Request-Id: 12aaf9ab-a819-47f3-b4cd-3a9cf6277c4e[\r][\n]"
+2020-12-28 18:59:46 DEBUG wire:73 -  << "X-Runtime: 0.002354[\r][\n]"
+2020-12-28 18:59:46 DEBUG wire:73 -  << "Strict-Transport-Security: max-age=31536000; includeSubDomains[\r][\n]"
+2020-12-28 18:59:46 DEBUG wire:73 -  << "Vary: Origin[\r][\n]"
+2020-12-28 18:59:46 DEBUG wire:73 -  << "X-Frame-Options: sameorigin[\r][\n]"
+2020-12-28 18:59:46 DEBUG wire:73 -  << "Expect-CT: enforce; max-age=3600[\r][\n]"
+2020-12-28 18:59:46 DEBUG wire:73 -  << "Content-Encoding: gzip[\r][\n]"
+2020-12-28 18:59:46 DEBUG wire:73 -  << "[\r][\n]"
+2020-12-28 18:59:46 DEBUG DefaultClientConnection:259 - Receiving response: HTTP/1.1 200 OK
+2020-12-28 18:59:46 DEBUG headers:262 - << HTTP/1.1 200 OK
+2020-12-28 18:59:46 DEBUG headers:265 - << Server: nginx
+2020-12-28 18:59:46 DEBUG headers:265 - << Date: Mon, 28 Dec 2020 13:29:46 GMT
+2020-12-28 18:59:46 DEBUG headers:265 - << Content-Type: application/json; charset=utf-8
+2020-12-28 18:59:46 DEBUG headers:265 - << Transfer-Encoding: chunked
+2020-12-28 18:59:46 DEBUG headers:265 - << Connection: keep-alive
+2020-12-28 18:59:46 DEBUG headers:265 - << Vary: Accept-Encoding
+2020-12-28 18:59:46 DEBUG headers:265 - << X-Frame-Options: SAMEORIGIN
+2020-12-28 18:59:46 DEBUG headers:265 - << X-XSS-Protection: 1; mode=block
+2020-12-28 18:59:46 DEBUG headers:265 - << X-Content-Type-Options: nosniff
+2020-12-28 18:59:46 DEBUG headers:265 - << X-Download-Options: noopen
+2020-12-28 18:59:46 DEBUG headers:265 - << X-Permitted-Cross-Domain-Policies: none
+2020-12-28 18:59:46 DEBUG headers:265 - << Referrer-Policy: strict-origin-when-cross-origin
+2020-12-28 18:59:46 DEBUG headers:265 - << ETag: W/"b654e1cd0d3be5d471e57be8f71a8543"
+2020-12-28 18:59:46 DEBUG headers:265 - << Cache-Control: max-age=0, private, must-revalidate
+2020-12-28 18:59:46 DEBUG headers:265 - << X-Request-Id: 12aaf9ab-a819-47f3-b4cd-3a9cf6277c4e
+2020-12-28 18:59:46 DEBUG headers:265 - << X-Runtime: 0.002354
+2020-12-28 18:59:46 DEBUG headers:265 - << Strict-Transport-Security: max-age=31536000; includeSubDomains
+2020-12-28 18:59:46 DEBUG headers:265 - << Vary: Origin
+2020-12-28 18:59:46 DEBUG headers:265 - << X-Frame-Options: sameorigin
+2020-12-28 18:59:46 DEBUG headers:265 - << Expect-CT: enforce; max-age=3600
+2020-12-28 18:59:46 DEBUG headers:265 - << Content-Encoding: gzip
+2020-12-28 18:59:46 DEBUG DefaultHttpClient:509 - Connection can be kept alive indefinitely
+2020-12-28 18:59:46 DEBUG RequestSpecificationImpl$RestAssuredHttpBuilder:545 - Parsing response as: application/json; charset=utf-8
+2020-12-28 18:59:46 DEBUG wire:73 -  << "4f[\r][\n]"
+2020-12-28 18:59:46 DEBUG wire:73 -  << "[0x1f][0x8b][0x8][0x0][0x0][0x0][0x0][0x0][0x0][0x3][0xab]VJ[0xce]OIU[0xb2]210[0xd1]Q[0xca]M-IT[0xb2][0xca]+[0xcd][0xc9][0xd1]QJI[0x4][0xb1][0xab][0x81]b[0xc5][0xc5][0x89][0xe9]@[0x15]JA[0xa9][0xc5][0xf9][0xa5]E[0xc9][0xa9][\n]"
+2020-12-28 18:59:46 DEBUG wire:73 -  << "y[0xf9]%[\n]"
+2020-12-28 18:59:46 DEBUG wire:87 -  << "i[0xf9][0xa5]y)J[0xb5][0xb5][0x0][0xc5]u[0x8a]D@[0x0][0x0][0x0]"
+2020-12-28 18:59:46 DEBUG wire:73 -  << "[\r][\n]"
+2020-12-28 18:59:46 DEBUG wire:73 -  << "0[\r][\n]"
+2020-12-28 18:59:46 DEBUG wire:73 -  << "[\r][\n]"
+2020-12-28 18:59:46 DEBUG RequestSpecificationImpl$RestAssuredHttpBuilder:548 - Parsed data to instance of: class org.apache.http.conn.EofSensorInputStream
+2020-12-28 18:59:46 DEBUG BasicClientConnectionManager:200 - Releasing connection org.apache.http.impl.conn.ManagedClientConnectionImpl@78c262ba
+2020-12-28 18:59:46 DEBUG BasicClientConnectionManager:225 - Connection can be kept alive indefinitely
+2020-12-28 18:59:46 DEBUG BasicClientConnectionManager:161 - Get connection for route {s}->https://gorest.co.in:443
+2020-12-28 18:59:46 DEBUG DefaultClientConnectionOperator:177 - Connecting to gorest.co.in:443
+2020-12-28 18:59:46 DEBUG RequestAddCookies:123 - CookieSpec selected: ignoreCookies
+2020-12-28 18:59:46 DEBUG RequestAuthCache:77 - Auth cache not set in the context
+2020-12-28 18:59:46 DEBUG RequestProxyAuthentication:89 - Proxy auth state: UNCHALLENGED
+2020-12-28 18:59:46 DEBUG DefaultHttpClient:682 - Attempt 1 to execute request
+2020-12-28 18:59:46 DEBUG DefaultClientConnection:274 - Sending request: PUT /public-api/users/1594 HTTP/1.1
+2020-12-28 18:59:46 DEBUG wire:73 -  >> "PUT /public-api/users/1594 HTTP/1.1[\r][\n]"
+2020-12-28 18:59:46 DEBUG wire:73 -  >> "Authorization: Bearer 97bc2de143d3dcf505355d7ad09170f5f3f1c3e707a445f9513380aa30b1db84[\r][\n]"
+2020-12-28 18:59:46 DEBUG wire:73 -  >> "Accept: */*[\r][\n]"
+2020-12-28 18:59:46 DEBUG wire:73 -  >> "Content-Type: application/json; charset=UTF-8[\r][\n]"
+2020-12-28 18:59:46 DEBUG wire:73 -  >> "Content-Length: 40[\r][\n]"
+2020-12-28 18:59:46 DEBUG wire:73 -  >> "Host: gorest.co.in[\r][\n]"
+2020-12-28 18:59:46 DEBUG wire:73 -  >> "Connection: Keep-Alive[\r][\n]"
+2020-12-28 18:59:46 DEBUG wire:73 -  >> "User-Agent: Apache-HttpClient/4.5.3 (Java/14.0.2)[\r][\n]"
+2020-12-28 18:59:46 DEBUG wire:73 -  >> "Accept-Encoding: gzip,deflate[\r][\n]"
+2020-12-28 18:59:46 DEBUG wire:73 -  >> "[\r][\n]"
+2020-12-28 18:59:46 DEBUG headers:278 - >> PUT /public-api/users/1594 HTTP/1.1
+2020-12-28 18:59:46 DEBUG headers:281 - >> Authorization: Bearer 97bc2de143d3dcf505355d7ad09170f5f3f1c3e707a445f9513380aa30b1db84
+2020-12-28 18:59:46 DEBUG headers:281 - >> Accept: */*
+2020-12-28 18:59:46 DEBUG headers:281 - >> Content-Type: application/json; charset=UTF-8
+2020-12-28 18:59:46 DEBUG headers:281 - >> Content-Length: 40
+2020-12-28 18:59:46 DEBUG headers:281 - >> Host: gorest.co.in
+2020-12-28 18:59:46 DEBUG headers:281 - >> Connection: Keep-Alive
+2020-12-28 18:59:46 DEBUG headers:281 - >> User-Agent: Apache-HttpClient/4.5.3 (Java/14.0.2)
+2020-12-28 18:59:46 DEBUG headers:281 - >> Accept-Encoding: gzip,deflate
+2020-12-28 18:59:46 DEBUG wire:87 -  >> "{"email":"saurabhkumar131123@gmail.com"}"
+2020-12-28 18:59:46 DEBUG wire:73 -  << "HTTP/1.1 200 OK[\r][\n]"
+2020-12-28 18:59:46 DEBUG wire:73 -  << "Server: nginx[\r][\n]"
+2020-12-28 18:59:46 DEBUG wire:73 -  << "Date: Mon, 28 Dec 2020 13:29:46 GMT[\r][\n]"
+2020-12-28 18:59:46 DEBUG wire:73 -  << "Content-Type: application/json; charset=utf-8[\r][\n]"
+2020-12-28 18:59:46 DEBUG wire:73 -  << "Transfer-Encoding: chunked[\r][\n]"
+2020-12-28 18:59:46 DEBUG wire:73 -  << "Connection: keep-alive[\r][\n]"
+2020-12-28 18:59:46 DEBUG wire:73 -  << "Vary: Accept-Encoding[\r][\n]"
+2020-12-28 18:59:46 DEBUG wire:73 -  << "X-Frame-Options: SAMEORIGIN[\r][\n]"
+2020-12-28 18:59:46 DEBUG wire:73 -  << "X-XSS-Protection: 1; mode=block[\r][\n]"
+2020-12-28 18:59:46 DEBUG wire:73 -  << "X-Content-Type-Options: nosniff[\r][\n]"
+2020-12-28 18:59:46 DEBUG wire:73 -  << "X-Download-Options: noopen[\r][\n]"
+2020-12-28 18:59:46 DEBUG wire:73 -  << "X-Permitted-Cross-Domain-Policies: none[\r][\n]"
+2020-12-28 18:59:46 DEBUG wire:73 -  << "Referrer-Policy: strict-origin-when-cross-origin[\r][\n]"
+2020-12-28 18:59:46 DEBUG wire:73 -  << "ETag: W/"c89e95a208c6eabf20edaf6dc18ebcdb"[\r][\n]"
+2020-12-28 18:59:46 DEBUG wire:73 -  << "Cache-Control: max-age=0, private, must-revalidate[\r][\n]"
+2020-12-28 18:59:46 DEBUG wire:73 -  << "X-Request-Id: d3c512d2-cfcd-4eb1-a095-97f4e6ffda88[\r][\n]"
+2020-12-28 18:59:46 DEBUG wire:73 -  << "X-Runtime: 0.015330[\r][\n]"
+2020-12-28 18:59:46 DEBUG wire:73 -  << "Strict-Transport-Security: max-age=31536000; includeSubDomains[\r][\n]"
+2020-12-28 18:59:46 DEBUG wire:73 -  << "Vary: Origin[\r][\n]"
+2020-12-28 18:59:46 DEBUG wire:73 -  << "X-Frame-Options: sameorigin[\r][\n]"
+2020-12-28 18:59:46 DEBUG wire:73 -  << "Expect-CT: enforce; max-age=3600[\r][\n]"
+2020-12-28 18:59:46 DEBUG wire:73 -  << "Content-Encoding: gzip[\r][\n]"
+2020-12-28 18:59:46 DEBUG wire:73 -  << "[\r][\n]"
+2020-12-28 18:59:46 DEBUG DefaultClientConnection:259 - Receiving response: HTTP/1.1 200 OK
+2020-12-28 18:59:46 DEBUG headers:262 - << HTTP/1.1 200 OK
+2020-12-28 18:59:46 DEBUG headers:265 - << Server: nginx
+2020-12-28 18:59:46 DEBUG headers:265 - << Date: Mon, 28 Dec 2020 13:29:46 GMT
+2020-12-28 18:59:46 DEBUG headers:265 - << Content-Type: application/json; charset=utf-8
+2020-12-28 18:59:46 DEBUG headers:265 - << Transfer-Encoding: chunked
+2020-12-28 18:59:46 DEBUG headers:265 - << Connection: keep-alive
+2020-12-28 18:59:46 DEBUG headers:265 - << Vary: Accept-Encoding
+2020-12-28 18:59:46 DEBUG headers:265 - << X-Frame-Options: SAMEORIGIN
+2020-12-28 18:59:46 DEBUG headers:265 - << X-XSS-Protection: 1; mode=block
+2020-12-28 18:59:46 DEBUG headers:265 - << X-Content-Type-Options: nosniff
+2020-12-28 18:59:46 DEBUG headers:265 - << X-Download-Options: noopen
+2020-12-28 18:59:46 DEBUG headers:265 - << X-Permitted-Cross-Domain-Policies: none
+2020-12-28 18:59:46 DEBUG headers:265 - << Referrer-Policy: strict-origin-when-cross-origin
+2020-12-28 18:59:46 DEBUG headers:265 - << ETag: W/"c89e95a208c6eabf20edaf6dc18ebcdb"
+2020-12-28 18:59:46 DEBUG headers:265 - << Cache-Control: max-age=0, private, must-revalidate
+2020-12-28 18:59:46 DEBUG headers:265 - << X-Request-Id: d3c512d2-cfcd-4eb1-a095-97f4e6ffda88
+2020-12-28 18:59:46 DEBUG headers:265 - << X-Runtime: 0.015330
+2020-12-28 18:59:46 DEBUG headers:265 - << Strict-Transport-Security: max-age=31536000; includeSubDomains
+2020-12-28 18:59:46 DEBUG headers:265 - << Vary: Origin
+2020-12-28 18:59:46 DEBUG headers:265 - << X-Frame-Options: sameorigin
+2020-12-28 18:59:46 DEBUG headers:265 - << Expect-CT: enforce; max-age=3600
+2020-12-28 18:59:46 DEBUG headers:265 - << Content-Encoding: gzip
+2020-12-28 18:59:46 DEBUG DefaultHttpClient:509 - Connection can be kept alive indefinitely
+2020-12-28 18:59:46 DEBUG RequestSpecificationImpl$RestAssuredHttpBuilder:545 - Parsing response as: application/json; charset=utf-8
+2020-12-28 18:59:46 DEBUG wire:73 -  << "ae[\r][\n]"
+2020-12-28 18:59:46 DEBUG wire:73 -  << "[0x1f][0x8b][0x8][0x0][0x0][0x0][0x0][0x0][0x0][0x3]}[0x8c][0xc1][0xe][0x82]0[0x10]D[0xff]e[0xaf][0x16][0xb2][[\n]"
+2020-12-28 18:59:46 DEBUG wire:73 -  << "[0x81][0x9e][0xf4][0x3]<[0xe9][0xdd][0xac]m[0x83][0xc4][0x16][0xc][0xb4]^[0x8][0xff]n[0x89][0x9e][0xbd][0xcd][0xbc]y[0x99][0x15][0xcc]d[0x1d]h[0x89]( [0xb8][0xc8][0xa0][0xc7][0xe4][0xbd][0x0][0xcb]{^a[0xb0][0xa0][0xa9][0xee][0x94][0x0][0x17]x[0xf0][0xa0]a[0xe1]4[0xf3][0xfd][0xf1]L[0x81]g[0xaa][0x88]du[0xec][0xf7][0xa9]4S[0x0][0x1]#[0x87][0xfc][0x7][0x97][0xaf][0x95]A[0xef]F[0xeb][0xe6][0x8c][0xce][0xec]][0xee]K[0xe4][0x98][0x96][0xdc]O&[0xe][0xef][0x9d][0x98][0xd9]qt[0xf6][0xc6]1S[0x89][0x12][0xb][0x92][0x85]l[0xaf][0xd4][0xea][0xba][0xd3]J[0x95][\n]"
+2020-12-28 18:59:46 DEBUG wire:87 -  << "[0xf1][0x80][0xb5][0xae]0[0xcb][0xe9]e[0xff][0xc9]M[0xd9][0x10][0xfd][0xe4]m[0xfb][0x0][0xfe][0xd0][0xd8][0xa9][0xdf][0x0][0x0][0x0]"
+2020-12-28 18:59:46 DEBUG wire:73 -  << "[\r][\n]"
+2020-12-28 18:59:46 DEBUG wire:73 -  << "0[\r][\n]"
+2020-12-28 18:59:46 DEBUG wire:73 -  << "[\r][\n]"
+2020-12-28 18:59:46 DEBUG RequestSpecificationImpl$RestAssuredHttpBuilder:548 - Parsed data to instance of: class org.apache.http.conn.EofSensorInputStream
+2020-12-28 18:59:46 DEBUG BasicClientConnectionManager:200 - Releasing connection org.apache.http.impl.conn.ManagedClientConnectionImpl@5a05dd30
+2020-12-28 18:59:46 DEBUG BasicClientConnectionManager:225 - Connection can be kept alive indefinitely
+2020-12-28 18:59:46 DEBUG BasicClientConnectionManager:161 - Get connection for route {s}->https://gorest.co.in:443
+2020-12-28 18:59:46 DEBUG DefaultClientConnectionOperator:177 - Connecting to gorest.co.in:443
+2020-12-28 18:59:47 DEBUG RequestAddCookies:123 - CookieSpec selected: ignoreCookies
+2020-12-28 18:59:47 DEBUG RequestAuthCache:77 - Auth cache not set in the context
+2020-12-28 18:59:47 DEBUG RequestProxyAuthentication:89 - Proxy auth state: UNCHALLENGED
+2020-12-28 18:59:47 DEBUG DefaultHttpClient:682 - Attempt 1 to execute request
+2020-12-28 18:59:47 DEBUG DefaultClientConnection:274 - Sending request: PUT /public-api/users/1594 HTTP/1.1
+2020-12-28 18:59:47 DEBUG wire:73 -  >> "PUT /public-api/users/1594 HTTP/1.1[\r][\n]"
+2020-12-28 18:59:47 DEBUG wire:73 -  >> "Authorization: Bearer 97bc2de143d3dcf505355d7ad09170f5f3f1c3e707a445f9513380aa30b1db84[\r][\n]"
+2020-12-28 18:59:47 DEBUG wire:73 -  >> "Accept: */*[\r][\n]"
+2020-12-28 18:59:47 DEBUG wire:73 -  >> "Content-Type: application/json; charset=UTF-8[\r][\n]"
+2020-12-28 18:59:47 DEBUG wire:73 -  >> "Content-Length: 12[\r][\n]"
+2020-12-28 18:59:47 DEBUG wire:73 -  >> "Host: gorest.co.in[\r][\n]"
+2020-12-28 18:59:47 DEBUG wire:73 -  >> "Connection: Keep-Alive[\r][\n]"
+2020-12-28 18:59:47 DEBUG wire:73 -  >> "User-Agent: Apache-HttpClient/4.5.3 (Java/14.0.2)[\r][\n]"
+2020-12-28 18:59:47 DEBUG wire:73 -  >> "Accept-Encoding: gzip,deflate[\r][\n]"
+2020-12-28 18:59:47 DEBUG wire:73 -  >> "[\r][\n]"
+2020-12-28 18:59:47 DEBUG headers:278 - >> PUT /public-api/users/1594 HTTP/1.1
+2020-12-28 18:59:47 DEBUG headers:281 - >> Authorization: Bearer 97bc2de143d3dcf505355d7ad09170f5f3f1c3e707a445f9513380aa30b1db84
+2020-12-28 18:59:47 DEBUG headers:281 - >> Accept: */*
+2020-12-28 18:59:47 DEBUG headers:281 - >> Content-Type: application/json; charset=UTF-8
+2020-12-28 18:59:47 DEBUG headers:281 - >> Content-Length: 12
+2020-12-28 18:59:47 DEBUG headers:281 - >> Host: gorest.co.in
+2020-12-28 18:59:47 DEBUG headers:281 - >> Connection: Keep-Alive
+2020-12-28 18:59:47 DEBUG headers:281 - >> User-Agent: Apache-HttpClient/4.5.3 (Java/14.0.2)
+2020-12-28 18:59:47 DEBUG headers:281 - >> Accept-Encoding: gzip,deflate
+2020-12-28 18:59:47 DEBUG wire:87 -  >> "{"email":""}"
+2020-12-28 18:59:47 DEBUG wire:73 -  << "HTTP/1.1 200 OK[\r][\n]"
+2020-12-28 18:59:47 DEBUG wire:73 -  << "Server: nginx[\r][\n]"
+2020-12-28 18:59:47 DEBUG wire:73 -  << "Date: Mon, 28 Dec 2020 13:29:47 GMT[\r][\n]"
+2020-12-28 18:59:47 DEBUG wire:73 -  << "Content-Type: application/json; charset=utf-8[\r][\n]"
+2020-12-28 18:59:47 DEBUG wire:73 -  << "Transfer-Encoding: chunked[\r][\n]"
+2020-12-28 18:59:47 DEBUG wire:73 -  << "Connection: keep-alive[\r][\n]"
+2020-12-28 18:59:47 DEBUG wire:73 -  << "Vary: Accept-Encoding[\r][\n]"
+2020-12-28 18:59:47 DEBUG wire:73 -  << "X-Frame-Options: SAMEORIGIN[\r][\n]"
+2020-12-28 18:59:47 DEBUG wire:73 -  << "X-XSS-Protection: 1; mode=block[\r][\n]"
+2020-12-28 18:59:47 DEBUG wire:73 -  << "X-Content-Type-Options: nosniff[\r][\n]"
+2020-12-28 18:59:47 DEBUG wire:73 -  << "X-Download-Options: noopen[\r][\n]"
+2020-12-28 18:59:47 DEBUG wire:73 -  << "X-Permitted-Cross-Domain-Policies: none[\r][\n]"
+2020-12-28 18:59:47 DEBUG wire:73 -  << "Referrer-Policy: strict-origin-when-cross-origin[\r][\n]"
+2020-12-28 18:59:47 DEBUG wire:73 -  << "ETag: W/"4e18deb95e8cbeac18bb56142a2b3ad7"[\r][\n]"
+2020-12-28 18:59:47 DEBUG wire:73 -  << "Cache-Control: max-age=0, private, must-revalidate[\r][\n]"
+2020-12-28 18:59:47 DEBUG wire:73 -  << "X-Request-Id: d8e63a52-55ee-4b60-8bfe-300bf7cbba27[\r][\n]"
+2020-12-28 18:59:47 DEBUG wire:73 -  << "X-Runtime: 0.017783[\r][\n]"
+2020-12-28 18:59:47 DEBUG wire:73 -  << "Strict-Transport-Security: max-age=31536000; includeSubDomains[\r][\n]"
+2020-12-28 18:59:47 DEBUG wire:73 -  << "Vary: Origin[\r][\n]"
+2020-12-28 18:59:47 DEBUG wire:73 -  << "X-Frame-Options: sameorigin[\r][\n]"
+2020-12-28 18:59:47 DEBUG wire:73 -  << "Expect-CT: enforce; max-age=3600[\r][\n]"
+2020-12-28 18:59:47 DEBUG wire:73 -  << "Content-Encoding: gzip[\r][\n]"
+2020-12-28 18:59:47 DEBUG wire:73 -  << "[\r][\n]"
+2020-12-28 18:59:47 DEBUG DefaultClientConnection:259 - Receiving response: HTTP/1.1 200 OK
+2020-12-28 18:59:47 DEBUG headers:262 - << HTTP/1.1 200 OK
+2020-12-28 18:59:47 DEBUG headers:265 - << Server: nginx
+2020-12-28 18:59:47 DEBUG headers:265 - << Date: Mon, 28 Dec 2020 13:29:47 GMT
+2020-12-28 18:59:47 DEBUG headers:265 - << Content-Type: application/json; charset=utf-8
+2020-12-28 18:59:47 DEBUG headers:265 - << Transfer-Encoding: chunked
+2020-12-28 18:59:47 DEBUG headers:265 - << Connection: keep-alive
+2020-12-28 18:59:47 DEBUG headers:265 - << Vary: Accept-Encoding
+2020-12-28 18:59:47 DEBUG headers:265 - << X-Frame-Options: SAMEORIGIN
+2020-12-28 18:59:47 DEBUG headers:265 - << X-XSS-Protection: 1; mode=block
+2020-12-28 18:59:47 DEBUG headers:265 - << X-Content-Type-Options: nosniff
+2020-12-28 18:59:47 DEBUG headers:265 - << X-Download-Options: noopen
+2020-12-28 18:59:47 DEBUG headers:265 - << X-Permitted-Cross-Domain-Policies: none
+2020-12-28 18:59:47 DEBUG headers:265 - << Referrer-Policy: strict-origin-when-cross-origin
+2020-12-28 18:59:47 DEBUG headers:265 - << ETag: W/"4e18deb95e8cbeac18bb56142a2b3ad7"
+2020-12-28 18:59:47 DEBUG headers:265 - << Cache-Control: max-age=0, private, must-revalidate
+2020-12-28 18:59:47 DEBUG headers:265 - << X-Request-Id: d8e63a52-55ee-4b60-8bfe-300bf7cbba27
+2020-12-28 18:59:47 DEBUG headers:265 - << X-Runtime: 0.017783
+2020-12-28 18:59:47 DEBUG headers:265 - << Strict-Transport-Security: max-age=31536000; includeSubDomains
+2020-12-28 18:59:47 DEBUG headers:265 - << Vary: Origin
+2020-12-28 18:59:47 DEBUG headers:265 - << X-Frame-Options: sameorigin
+2020-12-28 18:59:47 DEBUG headers:265 - << Expect-CT: enforce; max-age=3600
+2020-12-28 18:59:47 DEBUG headers:265 - << Content-Encoding: gzip
+2020-12-28 18:59:47 DEBUG DefaultHttpClient:509 - Connection can be kept alive indefinitely
+2020-12-28 18:59:47 DEBUG RequestSpecificationImpl$RestAssuredHttpBuilder:545 - Parsing response as: application/json; charset=utf-8
+2020-12-28 18:59:47 DEBUG wire:73 -  << "5c[\r][\n]"
+2020-12-28 18:59:47 DEBUG wire:87 -  << "[0x1f][0x8b][0x8][0x0][0x0][0x0][0x0][0x0][0x0][0x3][0xab]VJ[0xce]OIU[0xb2]212[0xd2]Q[0xca]M-IT[0xb2][0xca]+[0xcd][0xc9][0xd1]QJI[0x4][0xb1][0xa3][0xab][0x95][0xd2]2SsR[0x94][0xac][0x94]Rs[0x13]3s[0x94]@[0x8a][0x8a][0x8b][0x13][0xd3][0x81]Z[0x94][0x92][0x13][0xf3][0xd4]K[0x14][0x92]R[0x15][0x92]r[0x12][0xf3][0xb2][0x95]jck[0x1]_[0xa9][0x19][0xce]N[0x0][0x0][0x0]"
+2020-12-28 18:59:47 DEBUG wire:73 -  << "[\r][\n]"
+2020-12-28 18:59:47 DEBUG wire:73 -  << "0[\r][\n]"
+2020-12-28 18:59:47 DEBUG wire:73 -  << "[\r][\n]"
+2020-12-28 18:59:47 DEBUG RequestSpecificationImpl$RestAssuredHttpBuilder:548 - Parsed data to instance of: class org.apache.http.conn.EofSensorInputStream
+2020-12-28 18:59:47 DEBUG BasicClientConnectionManager:200 - Releasing connection org.apache.http.impl.conn.ManagedClientConnectionImpl@53dd42d6
+2020-12-28 18:59:47 DEBUG BasicClientConnectionManager:225 - Connection can be kept alive indefinitely
+2020-12-28 18:59:47 DEBUG BasicClientConnectionManager:161 - Get connection for route {s}->https://gorest.co.in:443
+2020-12-28 18:59:47 DEBUG DefaultClientConnectionOperator:177 - Connecting to gorest.co.in:443
+2020-12-28 18:59:47 DEBUG DefaultClientConnection:180 - Connection 0.0.0.0:59209<->68.183.184.154:443 closed
+2020-12-28 18:59:47 DEBUG DefaultClientConnection:180 - Connection 0.0.0.0:59206<->68.183.184.154:443 closed
+2020-12-28 18:59:47 DEBUG DefaultClientConnection:180 - Connection 0.0.0.0:59205<->68.183.184.154:443 closed
+2020-12-28 18:59:47 DEBUG DefaultClientConnection:180 - Connection 0.0.0.0:59208<->68.183.184.154:443 closed
+2020-12-28 18:59:47 DEBUG RequestAddCookies:123 - CookieSpec selected: ignoreCookies
+2020-12-28 18:59:47 DEBUG RequestAuthCache:77 - Auth cache not set in the context
+2020-12-28 18:59:47 DEBUG RequestProxyAuthentication:89 - Proxy auth state: UNCHALLENGED
+2020-12-28 18:59:47 DEBUG DefaultHttpClient:682 - Attempt 1 to execute request
+2020-12-28 18:59:47 DEBUG DefaultClientConnection:274 - Sending request: DELETE /public-api/users/1594 HTTP/1.1
+2020-12-28 18:59:47 DEBUG wire:73 -  >> "DELETE /public-api/users/1594 HTTP/1.1[\r][\n]"
+2020-12-28 18:59:47 DEBUG wire:73 -  >> "Content-Type: application/json; charset=UTF-8[\r][\n]"
+2020-12-28 18:59:47 DEBUG wire:73 -  >> "Authorization: Bearer 97bc2de143d3dcf505355d7ad09170f5f3f1c3e707a445f9513380aa30b1db84[\r][\n]"
+2020-12-28 18:59:47 DEBUG wire:73 -  >> "Accept: */*[\r][\n]"
+2020-12-28 18:59:47 DEBUG wire:73 -  >> "Host: gorest.co.in[\r][\n]"
+2020-12-28 18:59:47 DEBUG wire:73 -  >> "Connection: Keep-Alive[\r][\n]"
+2020-12-28 18:59:47 DEBUG wire:73 -  >> "User-Agent: Apache-HttpClient/4.5.3 (Java/14.0.2)[\r][\n]"
+2020-12-28 18:59:47 DEBUG wire:73 -  >> "Accept-Encoding: gzip,deflate[\r][\n]"
+2020-12-28 18:59:47 DEBUG wire:73 -  >> "[\r][\n]"
+2020-12-28 18:59:47 DEBUG headers:278 - >> DELETE /public-api/users/1594 HTTP/1.1
+2020-12-28 18:59:47 DEBUG headers:281 - >> Content-Type: application/json; charset=UTF-8
+2020-12-28 18:59:47 DEBUG headers:281 - >> Authorization: Bearer 97bc2de143d3dcf505355d7ad09170f5f3f1c3e707a445f9513380aa30b1db84
+2020-12-28 18:59:47 DEBUG headers:281 - >> Accept: */*
+2020-12-28 18:59:47 DEBUG headers:281 - >> Host: gorest.co.in
+2020-12-28 18:59:47 DEBUG headers:281 - >> Connection: Keep-Alive
+2020-12-28 18:59:47 DEBUG headers:281 - >> User-Agent: Apache-HttpClient/4.5.3 (Java/14.0.2)
+2020-12-28 18:59:47 DEBUG headers:281 - >> Accept-Encoding: gzip,deflate
+2020-12-28 18:59:47 DEBUG wire:73 -  << "HTTP/1.1 200 OK[\r][\n]"
+2020-12-28 18:59:47 DEBUG wire:73 -  << "Server: nginx[\r][\n]"
+2020-12-28 18:59:47 DEBUG wire:73 -  << "Date: Mon, 28 Dec 2020 13:29:47 GMT[\r][\n]"
+2020-12-28 18:59:47 DEBUG wire:73 -  << "Content-Type: application/json; charset=utf-8[\r][\n]"
+2020-12-28 18:59:47 DEBUG wire:73 -  << "Transfer-Encoding: chunked[\r][\n]"
+2020-12-28 18:59:47 DEBUG wire:73 -  << "Connection: keep-alive[\r][\n]"
+2020-12-28 18:59:47 DEBUG wire:73 -  << "Vary: Accept-Encoding[\r][\n]"
+2020-12-28 18:59:47 DEBUG wire:73 -  << "X-Frame-Options: SAMEORIGIN[\r][\n]"
+2020-12-28 18:59:47 DEBUG wire:73 -  << "X-XSS-Protection: 1; mode=block[\r][\n]"
+2020-12-28 18:59:47 DEBUG wire:73 -  << "X-Content-Type-Options: nosniff[\r][\n]"
+2020-12-28 18:59:47 DEBUG wire:73 -  << "X-Download-Options: noopen[\r][\n]"
+2020-12-28 18:59:47 DEBUG wire:73 -  << "X-Permitted-Cross-Domain-Policies: none[\r][\n]"
+2020-12-28 18:59:47 DEBUG wire:73 -  << "Referrer-Policy: strict-origin-when-cross-origin[\r][\n]"
+2020-12-28 18:59:47 DEBUG wire:73 -  << "ETag: W/"9132bec7c413b5b015be1efe1c6efe72"[\r][\n]"
+2020-12-28 18:59:47 DEBUG wire:73 -  << "Cache-Control: max-age=0, private, must-revalidate[\r][\n]"
+2020-12-28 18:59:47 DEBUG wire:73 -  << "X-Request-Id: 0dca609e-c16d-445f-bf10-caf4be0fcdaf[\r][\n]"
+2020-12-28 18:59:47 DEBUG wire:73 -  << "X-Runtime: 0.015062[\r][\n]"
+2020-12-28 18:59:47 DEBUG wire:73 -  << "Strict-Transport-Security: max-age=31536000; includeSubDomains[\r][\n]"
+2020-12-28 18:59:47 DEBUG wire:73 -  << "Vary: Origin[\r][\n]"
+2020-12-28 18:59:47 DEBUG wire:73 -  << "X-Frame-Options: sameorigin[\r][\n]"
+2020-12-28 18:59:47 DEBUG wire:73 -  << "Expect-CT: enforce; max-age=3600[\r][\n]"
+2020-12-28 18:59:47 DEBUG wire:73 -  << "Content-Encoding: gzip[\r][\n]"
+2020-12-28 18:59:47 DEBUG wire:73 -  << "[\r][\n]"
+2020-12-28 18:59:47 DEBUG DefaultClientConnection:259 - Receiving response: HTTP/1.1 200 OK
+2020-12-28 18:59:47 DEBUG headers:262 - << HTTP/1.1 200 OK
+2020-12-28 18:59:47 DEBUG headers:265 - << Server: nginx
+2020-12-28 18:59:47 DEBUG headers:265 - << Date: Mon, 28 Dec 2020 13:29:47 GMT
+2020-12-28 18:59:47 DEBUG headers:265 - << Content-Type: application/json; charset=utf-8
+2020-12-28 18:59:47 DEBUG headers:265 - << Transfer-Encoding: chunked
+2020-12-28 18:59:47 DEBUG headers:265 - << Connection: keep-alive
+2020-12-28 18:59:47 DEBUG headers:265 - << Vary: Accept-Encoding
+2020-12-28 18:59:47 DEBUG headers:265 - << X-Frame-Options: SAMEORIGIN
+2020-12-28 18:59:47 DEBUG headers:265 - << X-XSS-Protection: 1; mode=block
+2020-12-28 18:59:47 DEBUG headers:265 - << X-Content-Type-Options: nosniff
+2020-12-28 18:59:47 DEBUG headers:265 - << X-Download-Options: noopen
+2020-12-28 18:59:47 DEBUG headers:265 - << X-Permitted-Cross-Domain-Policies: none
+2020-12-28 18:59:47 DEBUG headers:265 - << Referrer-Policy: strict-origin-when-cross-origin
+2020-12-28 18:59:47 DEBUG headers:265 - << ETag: W/"9132bec7c413b5b015be1efe1c6efe72"
+2020-12-28 18:59:47 DEBUG headers:265 - << Cache-Control: max-age=0, private, must-revalidate
+2020-12-28 18:59:47 DEBUG headers:265 - << X-Request-Id: 0dca609e-c16d-445f-bf10-caf4be0fcdaf
+2020-12-28 18:59:47 DEBUG headers:265 - << X-Runtime: 0.015062
+2020-12-28 18:59:47 DEBUG headers:265 - << Strict-Transport-Security: max-age=31536000; includeSubDomains
+2020-12-28 18:59:47 DEBUG headers:265 - << Vary: Origin
+2020-12-28 18:59:47 DEBUG headers:265 - << X-Frame-Options: sameorigin
+2020-12-28 18:59:47 DEBUG headers:265 - << Expect-CT: enforce; max-age=3600
+2020-12-28 18:59:47 DEBUG headers:265 - << Content-Encoding: gzip
+2020-12-28 18:59:47 DEBUG DefaultHttpClient:509 - Connection can be kept alive indefinitely
+2020-12-28 18:59:47 DEBUG RequestSpecificationImpl$RestAssuredHttpBuilder:545 - Parsing response as: application/json; charset=utf-8
+2020-12-28 18:59:47 DEBUG wire:73 -  << "31[\r][\n]"
+2020-12-28 18:59:47 DEBUG wire:87 -  << "[0x1f][0x8b][0x8][0x0][0x0][0x0][0x0][0x0][0x0][0x3][0xab]VJ[0xce]OIU[0xb2]220[0xd1]Q[0xca]M-IT[0xb2][0xca]+[0xcd][0xc9][0xd1]QJI[0x84][0xb1]k[0x1]z[0xc1][0x18][0xd9]$[0x0][0x0][0x0]"
+2020-12-28 18:59:47 DEBUG wire:73 -  << "[\r][\n]"
+2020-12-28 18:59:47 DEBUG wire:73 -  << "0[\r][\n]"
+2020-12-28 18:59:47 DEBUG wire:73 -  << "[\r][\n]"
+2020-12-28 18:59:47 DEBUG RequestSpecificationImpl$RestAssuredHttpBuilder:548 - Parsed data to instance of: class org.apache.http.conn.EofSensorInputStream
+2020-12-28 18:59:47 DEBUG BasicClientConnectionManager:200 - Releasing connection org.apache.http.impl.conn.ManagedClientConnectionImpl@1a1c21b4
+2020-12-28 18:59:47 DEBUG BasicClientConnectionManager:225 - Connection can be kept alive indefinitely
+2020-12-28 18:59:47 DEBUG cache:45 - Couldn't find template in cache for "Extent.ftl"("en_IN", UTF-8, parsed); will try to load it.
+2020-12-28 18:59:48 DEBUG cache:45 - TemplateLoader.findTemplateSource("Extent_en_IN.ftl"): Not found
+2020-12-28 18:59:48 DEBUG cache:45 - TemplateLoader.findTemplateSource("Extent_en.ftl"): Not found
+2020-12-28 18:59:48 DEBUG cache:45 - TemplateLoader.findTemplateSource("Extent.ftl"): Found
+2020-12-28 18:59:48 DEBUG cache:45 - Loading template for "Extent.ftl"("en_IN", UTF-8, parsed) from "jar:file:/C:/Users/saurabhkumar04/.m2/repository/com/relevantcodes/extentreports/2.41.2/extentreports-2.41.2.jar!/com/relevantcodes/extentreports/view/Extent.ftl"
+2020-12-28 18:59:48 DEBUG cache:45 - Couldn't find template in cache for "Extent.ftl"("en_IN", UTF-8, parsed); will try to load it.
+2020-12-28 18:59:48 DEBUG cache:45 - TemplateLoader.findTemplateSource("Extent_en_IN.ftl"): Not found
+2020-12-28 18:59:48 DEBUG cache:45 - TemplateLoader.findTemplateSource("Extent_en.ftl"): Not found
+2020-12-28 18:59:48 DEBUG cache:45 - TemplateLoader.findTemplateSource("Extent.ftl"): Found
+2020-12-28 18:59:48 DEBUG cache:45 - Loading template for "Extent.ftl"("en_IN", UTF-8, parsed) from "jar:file:/C:/Users/saurabhkumar04/.m2/repository/com/relevantcodes/extentreports/2.41.2/extentreports-2.41.2.jar!/com/relevantcodes/extentreports/view/Extent.ftl"
+2020-12-28 19:04:14 DEBUG BasicClientConnectionManager:161 - Get connection for route {s}->https://gorest.co.in:443
+2020-12-28 19:04:14 DEBUG DefaultClientConnectionOperator:177 - Connecting to gorest.co.in:443
+2020-12-28 19:04:15 DEBUG RequestAddCookies:123 - CookieSpec selected: ignoreCookies
+2020-12-28 19:04:15 DEBUG RequestAuthCache:77 - Auth cache not set in the context
+2020-12-28 19:04:15 DEBUG RequestProxyAuthentication:89 - Proxy auth state: UNCHALLENGED
+2020-12-28 19:04:15 DEBUG DefaultHttpClient:682 - Attempt 1 to execute request
+2020-12-28 19:04:15 DEBUG DefaultClientConnection:274 - Sending request: POST /public-api/users HTTP/1.1
+2020-12-28 19:04:15 DEBUG wire:73 -  >> "POST /public-api/users HTTP/1.1[\r][\n]"
+2020-12-28 19:04:15 DEBUG wire:73 -  >> "Authorization: Bearer 97bc2de143d3dcf505355d7ad09170f5f3f1c3e707a445f9513380aa30b1db84[\r][\n]"
+2020-12-28 19:04:15 DEBUG wire:73 -  >> "Accept: */*[\r][\n]"
+2020-12-28 19:04:15 DEBUG wire:73 -  >> "Content-Type: application/json; charset=UTF-8[\r][\n]"
+2020-12-28 19:04:15 DEBUG wire:73 -  >> "Content-Length: 93[\r][\n]"
+2020-12-28 19:04:15 DEBUG wire:73 -  >> "Host: gorest.co.in[\r][\n]"
+2020-12-28 19:04:15 DEBUG wire:73 -  >> "Connection: Keep-Alive[\r][\n]"
+2020-12-28 19:04:15 DEBUG wire:73 -  >> "User-Agent: Apache-HttpClient/4.5.3 (Java/14.0.2)[\r][\n]"
+2020-12-28 19:04:15 DEBUG wire:73 -  >> "Accept-Encoding: gzip,deflate[\r][\n]"
+2020-12-28 19:04:15 DEBUG wire:73 -  >> "[\r][\n]"
+2020-12-28 19:04:15 DEBUG headers:278 - >> POST /public-api/users HTTP/1.1
+2020-12-28 19:04:15 DEBUG headers:281 - >> Authorization: Bearer 97bc2de143d3dcf505355d7ad09170f5f3f1c3e707a445f9513380aa30b1db84
+2020-12-28 19:04:15 DEBUG headers:281 - >> Accept: */*
+2020-12-28 19:04:15 DEBUG headers:281 - >> Content-Type: application/json; charset=UTF-8
+2020-12-28 19:04:15 DEBUG headers:281 - >> Content-Length: 93
+2020-12-28 19:04:15 DEBUG headers:281 - >> Host: gorest.co.in
+2020-12-28 19:04:15 DEBUG headers:281 - >> Connection: Keep-Alive
+2020-12-28 19:04:15 DEBUG headers:281 - >> User-Agent: Apache-HttpClient/4.5.3 (Java/14.0.2)
+2020-12-28 19:04:15 DEBUG headers:281 - >> Accept-Encoding: gzip,deflate
+2020-12-28 19:04:15 DEBUG wire:87 -  >> "{"gender":"Male","name":"Saurabh","email":"saurabh1234455664512@gmail.com","status":"Active"}"
+2020-12-28 19:04:15 DEBUG wire:73 -  << "HTTP/1.1 200 OK[\r][\n]"
+2020-12-28 19:04:15 DEBUG wire:73 -  << "Server: nginx[\r][\n]"
+2020-12-28 19:04:15 DEBUG wire:73 -  << "Date: Mon, 28 Dec 2020 13:34:15 GMT[\r][\n]"
+2020-12-28 19:04:15 DEBUG wire:73 -  << "Content-Type: application/json; charset=utf-8[\r][\n]"
+2020-12-28 19:04:15 DEBUG wire:73 -  << "Transfer-Encoding: chunked[\r][\n]"
+2020-12-28 19:04:15 DEBUG wire:73 -  << "Connection: keep-alive[\r][\n]"
+2020-12-28 19:04:15 DEBUG wire:73 -  << "Vary: Accept-Encoding[\r][\n]"
+2020-12-28 19:04:15 DEBUG wire:73 -  << "X-Frame-Options: SAMEORIGIN[\r][\n]"
+2020-12-28 19:04:15 DEBUG wire:73 -  << "X-XSS-Protection: 1; mode=block[\r][\n]"
+2020-12-28 19:04:15 DEBUG wire:73 -  << "X-Content-Type-Options: nosniff[\r][\n]"
+2020-12-28 19:04:15 DEBUG wire:73 -  << "X-Download-Options: noopen[\r][\n]"
+2020-12-28 19:04:15 DEBUG wire:73 -  << "X-Permitted-Cross-Domain-Policies: none[\r][\n]"
+2020-12-28 19:04:15 DEBUG wire:73 -  << "Referrer-Policy: strict-origin-when-cross-origin[\r][\n]"
+2020-12-28 19:04:15 DEBUG wire:73 -  << "Location: https://gorest.co.in/public-api/users/1598[\r][\n]"
+2020-12-28 19:04:15 DEBUG wire:73 -  << "ETag: W/"9eec918193a0c7ccc59dfdd997e1d188"[\r][\n]"
+2020-12-28 19:04:15 DEBUG wire:73 -  << "Cache-Control: max-age=0, private, must-revalidate[\r][\n]"
+2020-12-28 19:04:15 DEBUG wire:73 -  << "X-Request-Id: 5c523038-c701-45fd-9016-409907c0a9bb[\r][\n]"
+2020-12-28 19:04:15 DEBUG wire:73 -  << "X-Runtime: 0.016813[\r][\n]"
+2020-12-28 19:04:15 DEBUG wire:73 -  << "Strict-Transport-Security: max-age=31536000; includeSubDomains[\r][\n]"
+2020-12-28 19:04:15 DEBUG wire:73 -  << "Vary: Origin[\r][\n]"
+2020-12-28 19:04:15 DEBUG wire:73 -  << "X-Frame-Options: sameorigin[\r][\n]"
+2020-12-28 19:04:15 DEBUG wire:73 -  << "Expect-CT: enforce; max-age=3600[\r][\n]"
+2020-12-28 19:04:15 DEBUG wire:73 -  << "Content-Encoding: gzip[\r][\n]"
+2020-12-28 19:04:15 DEBUG wire:73 -  << "[\r][\n]"
+2020-12-28 19:04:15 DEBUG DefaultClientConnection:259 - Receiving response: HTTP/1.1 200 OK
+2020-12-28 19:04:15 DEBUG headers:262 - << HTTP/1.1 200 OK
+2020-12-28 19:04:15 DEBUG headers:265 - << Server: nginx
+2020-12-28 19:04:15 DEBUG headers:265 - << Date: Mon, 28 Dec 2020 13:34:15 GMT
+2020-12-28 19:04:15 DEBUG headers:265 - << Content-Type: application/json; charset=utf-8
+2020-12-28 19:04:15 DEBUG headers:265 - << Transfer-Encoding: chunked
+2020-12-28 19:04:15 DEBUG headers:265 - << Connection: keep-alive
+2020-12-28 19:04:15 DEBUG headers:265 - << Vary: Accept-Encoding
+2020-12-28 19:04:15 DEBUG headers:265 - << X-Frame-Options: SAMEORIGIN
+2020-12-28 19:04:15 DEBUG headers:265 - << X-XSS-Protection: 1; mode=block
+2020-12-28 19:04:15 DEBUG headers:265 - << X-Content-Type-Options: nosniff
+2020-12-28 19:04:15 DEBUG headers:265 - << X-Download-Options: noopen
+2020-12-28 19:04:15 DEBUG headers:265 - << X-Permitted-Cross-Domain-Policies: none
+2020-12-28 19:04:15 DEBUG headers:265 - << Referrer-Policy: strict-origin-when-cross-origin
+2020-12-28 19:04:15 DEBUG headers:265 - << Location: https://gorest.co.in/public-api/users/1598
+2020-12-28 19:04:15 DEBUG headers:265 - << ETag: W/"9eec918193a0c7ccc59dfdd997e1d188"
+2020-12-28 19:04:15 DEBUG headers:265 - << Cache-Control: max-age=0, private, must-revalidate
+2020-12-28 19:04:15 DEBUG headers:265 - << X-Request-Id: 5c523038-c701-45fd-9016-409907c0a9bb
+2020-12-28 19:04:15 DEBUG headers:265 - << X-Runtime: 0.016813
+2020-12-28 19:04:15 DEBUG headers:265 - << Strict-Transport-Security: max-age=31536000; includeSubDomains
+2020-12-28 19:04:15 DEBUG headers:265 - << Vary: Origin
+2020-12-28 19:04:15 DEBUG headers:265 - << X-Frame-Options: sameorigin
+2020-12-28 19:04:15 DEBUG headers:265 - << Expect-CT: enforce; max-age=3600
+2020-12-28 19:04:15 DEBUG headers:265 - << Content-Encoding: gzip
+2020-12-28 19:04:15 DEBUG DefaultHttpClient:509 - Connection can be kept alive indefinitely
+2020-12-28 19:04:15 DEBUG RequestSpecificationImpl$RestAssuredHttpBuilder:545 - Parsing response as: application/json; charset=utf-8
+2020-12-28 19:04:15 DEBUG wire:73 -  << "aa[\r][\n]"
+2020-12-28 19:04:15 DEBUG wire:87 -  << "[0x1f][0x8b][0x8][0x0][0x0][0x0][0x0][0x0][0x0][0x3][0x8d][0x8d]A[0xe][0x82]0[0x10]E[0xef]2[[0xb]iK[0xdb]@Wz[0x0]W[0xba]7c;A[0x92][0x2][0x6]Z7[0x84][0xbb];[0xc4][0xb][0xb8][0xfb][0xff][0xfd][0x97][0xfc][\r][0xc2][0x1c][0x9][0xbc][0x96]J[0xc0]H[0x19][0xc1]O%%[0x1][0x11][0x8f][0xbc][0xc1][0x10][0xc1]+[0xdb][0xb5][0x2]&[0x1c]Y[0x84][0x1b][0x96][0x5][0x9f]/[0x10]@#[0xe][0x89][0xc9][0xfa]#J7[0xc6]X[0xeb][0x9c][0xb1]J[0x9f][0xfb]c[0xac][0xc3]<[0xb2][0xd8][0xd3][0x14]ia[0xf3][0x8a][0x89][0xb8][0xaf][0x19]sY[0xb9]_B[0x1e]>[0x7][0x9][0xb]a[0xa6][0xf8][0xc0][0xcc]TK-+[0xa5]+[0xdd][0xde]U[0xe7][0xa5][0xe1][0xff][0xda]9y[0x92][0xd6]7[0x92][0xe5][0xf2][0x8e][0xff][0xca][0xfb][0xfe][0x5][0xd1]1[0xc2]z[0xe1][0x0][0x0][0x0]"
+2020-12-28 19:04:15 DEBUG wire:73 -  << "[\r][\n]"
+2020-12-28 19:04:15 DEBUG wire:73 -  << "0[\r][\n]"
+2020-12-28 19:04:15 DEBUG wire:73 -  << "[\r][\n]"
+2020-12-28 19:04:15 DEBUG RequestSpecificationImpl$RestAssuredHttpBuilder:548 - Parsed data to instance of: class org.apache.http.conn.EofSensorInputStream
+2020-12-28 19:04:15 DEBUG BasicClientConnectionManager:200 - Releasing connection org.apache.http.impl.conn.ManagedClientConnectionImpl@5584d9c6
+2020-12-28 19:04:15 DEBUG BasicClientConnectionManager:225 - Connection can be kept alive indefinitely
+2020-12-28 19:04:16 DEBUG BasicClientConnectionManager:161 - Get connection for route {s}->https://gorest.co.in:443
+2020-12-28 19:04:16 DEBUG DefaultClientConnectionOperator:177 - Connecting to gorest.co.in:443
+2020-12-28 19:04:17 DEBUG RequestAddCookies:123 - CookieSpec selected: ignoreCookies
+2020-12-28 19:04:17 DEBUG RequestAuthCache:77 - Auth cache not set in the context
+2020-12-28 19:04:17 DEBUG RequestProxyAuthentication:89 - Proxy auth state: UNCHALLENGED
+2020-12-28 19:04:17 DEBUG DefaultHttpClient:682 - Attempt 1 to execute request
+2020-12-28 19:04:17 DEBUG DefaultClientConnection:274 - Sending request: GET /public-api/users/1598 HTTP/1.1
+2020-12-28 19:04:17 DEBUG wire:73 -  >> "GET /public-api/users/1598 HTTP/1.1[\r][\n]"
+2020-12-28 19:04:17 DEBUG wire:73 -  >> "Content-Type: application/json; charset=UTF-8[\r][\n]"
+2020-12-28 19:04:17 DEBUG wire:73 -  >> "Authorization: Bearer 97bc2de143d3dcf505355d7ad09170f5f3f1c3e707a445f9513380aa30b1db84[\r][\n]"
+2020-12-28 19:04:17 DEBUG wire:73 -  >> "Accept: */*[\r][\n]"
+2020-12-28 19:04:17 DEBUG wire:73 -  >> "Host: gorest.co.in[\r][\n]"
+2020-12-28 19:04:17 DEBUG wire:73 -  >> "Connection: Keep-Alive[\r][\n]"
+2020-12-28 19:04:17 DEBUG wire:73 -  >> "User-Agent: Apache-HttpClient/4.5.3 (Java/14.0.2)[\r][\n]"
+2020-12-28 19:04:17 DEBUG wire:73 -  >> "Accept-Encoding: gzip,deflate[\r][\n]"
+2020-12-28 19:04:17 DEBUG wire:73 -  >> "[\r][\n]"
+2020-12-28 19:04:17 DEBUG headers:278 - >> GET /public-api/users/1598 HTTP/1.1
+2020-12-28 19:04:17 DEBUG headers:281 - >> Content-Type: application/json; charset=UTF-8
+2020-12-28 19:04:17 DEBUG headers:281 - >> Authorization: Bearer 97bc2de143d3dcf505355d7ad09170f5f3f1c3e707a445f9513380aa30b1db84
+2020-12-28 19:04:17 DEBUG headers:281 - >> Accept: */*
+2020-12-28 19:04:17 DEBUG headers:281 - >> Host: gorest.co.in
+2020-12-28 19:04:17 DEBUG headers:281 - >> Connection: Keep-Alive
+2020-12-28 19:04:17 DEBUG headers:281 - >> User-Agent: Apache-HttpClient/4.5.3 (Java/14.0.2)
+2020-12-28 19:04:17 DEBUG headers:281 - >> Accept-Encoding: gzip,deflate
+2020-12-28 19:04:17 DEBUG wire:73 -  << "HTTP/1.1 200 OK[\r][\n]"
+2020-12-28 19:04:17 DEBUG wire:73 -  << "Server: nginx[\r][\n]"
+2020-12-28 19:04:17 DEBUG wire:73 -  << "Date: Mon, 28 Dec 2020 13:34:17 GMT[\r][\n]"
+2020-12-28 19:04:17 DEBUG wire:73 -  << "Content-Type: application/json; charset=utf-8[\r][\n]"
+2020-12-28 19:04:17 DEBUG wire:73 -  << "Transfer-Encoding: chunked[\r][\n]"
+2020-12-28 19:04:17 DEBUG wire:73 -  << "Connection: keep-alive[\r][\n]"
+2020-12-28 19:04:17 DEBUG wire:73 -  << "Vary: Accept-Encoding[\r][\n]"
+2020-12-28 19:04:17 DEBUG wire:73 -  << "X-Frame-Options: SAMEORIGIN[\r][\n]"
+2020-12-28 19:04:17 DEBUG wire:73 -  << "X-XSS-Protection: 1; mode=block[\r][\n]"
+2020-12-28 19:04:17 DEBUG wire:73 -  << "X-Content-Type-Options: nosniff[\r][\n]"
+2020-12-28 19:04:17 DEBUG wire:73 -  << "X-Download-Options: noopen[\r][\n]"
+2020-12-28 19:04:17 DEBUG wire:73 -  << "X-Permitted-Cross-Domain-Policies: none[\r][\n]"
+2020-12-28 19:04:17 DEBUG wire:73 -  << "Referrer-Policy: strict-origin-when-cross-origin[\r][\n]"
+2020-12-28 19:04:17 DEBUG wire:73 -  << "ETag: W/"1e406d780812eb4221f99f08b01492a5"[\r][\n]"
+2020-12-28 19:04:17 DEBUG wire:73 -  << "Cache-Control: max-age=0, private, must-revalidate[\r][\n]"
+2020-12-28 19:04:17 DEBUG wire:73 -  << "X-Request-Id: 190fa63f-a977-495c-8faa-bb13a459f923[\r][\n]"
+2020-12-28 19:04:17 DEBUG wire:73 -  << "X-Runtime: 0.018125[\r][\n]"
+2020-12-28 19:04:17 DEBUG wire:73 -  << "Strict-Transport-Security: max-age=31536000; includeSubDomains[\r][\n]"
+2020-12-28 19:04:17 DEBUG wire:73 -  << "Vary: Origin[\r][\n]"
+2020-12-28 19:04:17 DEBUG wire:73 -  << "X-Frame-Options: sameorigin[\r][\n]"
+2020-12-28 19:04:17 DEBUG wire:73 -  << "Expect-CT: enforce; max-age=3600[\r][\n]"
+2020-12-28 19:04:17 DEBUG wire:73 -  << "Content-Encoding: gzip[\r][\n]"
+2020-12-28 19:04:17 DEBUG wire:73 -  << "[\r][\n]"
+2020-12-28 19:04:17 DEBUG DefaultClientConnection:259 - Receiving response: HTTP/1.1 200 OK
+2020-12-28 19:04:17 DEBUG headers:262 - << HTTP/1.1 200 OK
+2020-12-28 19:04:17 DEBUG headers:265 - << Server: nginx
+2020-12-28 19:04:17 DEBUG headers:265 - << Date: Mon, 28 Dec 2020 13:34:17 GMT
+2020-12-28 19:04:17 DEBUG headers:265 - << Content-Type: application/json; charset=utf-8
+2020-12-28 19:04:17 DEBUG headers:265 - << Transfer-Encoding: chunked
+2020-12-28 19:04:17 DEBUG headers:265 - << Connection: keep-alive
+2020-12-28 19:04:17 DEBUG headers:265 - << Vary: Accept-Encoding
+2020-12-28 19:04:17 DEBUG headers:265 - << X-Frame-Options: SAMEORIGIN
+2020-12-28 19:04:17 DEBUG headers:265 - << X-XSS-Protection: 1; mode=block
+2020-12-28 19:04:17 DEBUG headers:265 - << X-Content-Type-Options: nosniff
+2020-12-28 19:04:17 DEBUG headers:265 - << X-Download-Options: noopen
+2020-12-28 19:04:17 DEBUG headers:265 - << X-Permitted-Cross-Domain-Policies: none
+2020-12-28 19:04:17 DEBUG headers:265 - << Referrer-Policy: strict-origin-when-cross-origin
+2020-12-28 19:04:17 DEBUG headers:265 - << ETag: W/"1e406d780812eb4221f99f08b01492a5"
+2020-12-28 19:04:17 DEBUG headers:265 - << Cache-Control: max-age=0, private, must-revalidate
+2020-12-28 19:04:17 DEBUG headers:265 - << X-Request-Id: 190fa63f-a977-495c-8faa-bb13a459f923
+2020-12-28 19:04:17 DEBUG headers:265 - << X-Runtime: 0.018125
+2020-12-28 19:04:17 DEBUG headers:265 - << Strict-Transport-Security: max-age=31536000; includeSubDomains
+2020-12-28 19:04:17 DEBUG headers:265 - << Vary: Origin
+2020-12-28 19:04:17 DEBUG headers:265 - << X-Frame-Options: sameorigin
+2020-12-28 19:04:17 DEBUG headers:265 - << Expect-CT: enforce; max-age=3600
+2020-12-28 19:04:17 DEBUG headers:265 - << Content-Encoding: gzip
+2020-12-28 19:04:17 DEBUG DefaultHttpClient:509 - Connection can be kept alive indefinitely
+2020-12-28 19:04:17 DEBUG RequestSpecificationImpl$RestAssuredHttpBuilder:545 - Parsing response as: application/json; charset=utf-8
+2020-12-28 19:04:17 DEBUG wire:73 -  << "aa[\r][\n]"
+2020-12-28 19:04:17 DEBUG wire:87 -  << "[0x1f][0x8b][0x8][0x0][0x0][0x0][0x0][0x0][0x0][0x3][0x8d][0x8d]A[0xe][0x82]0[0x10]E[0xef]2[[0xb]iK[0xdb]@Wz[0x0]W[0xba]7c;A[0x92][0x2][0x6]Z7[0x84][0xbb];[0xc4][0xb][0xb8][0xfb][0xff][0xfd][0x97][0xfc][\r][0xc2][0x1c][0x9][0xbc][0x96]R[0xc0]H[0x19][0xc1]O%%[0x1][0x11][0x8f][0xbc][0xc1][0x10][0xc1]+[0xdb][0xb5][0x2]&[0x1c]Y[0x84][0x1b][0x96][0x5][0x9f]/[0x10]@#[0xe][0x89][0xc9][0xfa]#J7[0xc6]X[0xeb][0x9c][0xb1]J[0x9f][0xfb]c[0xac][0xc3]<[0xb2][0xd8][0xd3][0x14]ia[0xf3][0x8a][0x89][0xb8][0xaf][0x19]sY[0xb9]_B[0x1e]>[0x7][0x9][0xb]a[0xa6][0xf8][0xc0][0xcc]TK-+[0xa5]+[0xdd][0xde]U[0xe7][0xa5][0xe1][0xff][0xda]9y[0x92][0xd6]7[0x92][0xe5][0xf2][0x8e][0xff][0xca][0xfb][0xfe][0x5]I[0xfa][0xa2].[0xe1][0x0][0x0][0x0]"
+2020-12-28 19:04:17 DEBUG wire:73 -  << "[\r][\n]"
+2020-12-28 19:04:17 DEBUG wire:73 -  << "0[\r][\n]"
+2020-12-28 19:04:17 DEBUG wire:73 -  << "[\r][\n]"
+2020-12-28 19:04:17 DEBUG RequestSpecificationImpl$RestAssuredHttpBuilder:548 - Parsed data to instance of: class org.apache.http.conn.EofSensorInputStream
+2020-12-28 19:04:17 DEBUG BasicClientConnectionManager:200 - Releasing connection org.apache.http.impl.conn.ManagedClientConnectionImpl@27a6fef2
+2020-12-28 19:04:17 DEBUG BasicClientConnectionManager:225 - Connection can be kept alive indefinitely
+2020-12-28 19:04:17 DEBUG BasicClientConnectionManager:161 - Get connection for route {s}->https://gorest.co.in:443
+2020-12-28 19:04:17 DEBUG DefaultClientConnectionOperator:177 - Connecting to gorest.co.in:443
+2020-12-28 19:04:17 DEBUG RequestAddCookies:123 - CookieSpec selected: ignoreCookies
+2020-12-28 19:04:17 DEBUG RequestAuthCache:77 - Auth cache not set in the context
+2020-12-28 19:04:17 DEBUG RequestProxyAuthentication:89 - Proxy auth state: UNCHALLENGED
+2020-12-28 19:04:17 DEBUG DefaultHttpClient:682 - Attempt 1 to execute request
+2020-12-28 19:04:17 DEBUG DefaultClientConnection:274 - Sending request: GET /public-api/users/123456789 HTTP/1.1
+2020-12-28 19:04:17 DEBUG wire:73 -  >> "GET /public-api/users/123456789 HTTP/1.1[\r][\n]"
+2020-12-28 19:04:17 DEBUG wire:73 -  >> "Content-Type: application/json; charset=UTF-8[\r][\n]"
+2020-12-28 19:04:17 DEBUG wire:73 -  >> "Authorization: Bearer 97bc2de143d3dcf505355d7ad09170f5f3f1c3e707a445f9513380aa30b1db84[\r][\n]"
+2020-12-28 19:04:17 DEBUG wire:73 -  >> "Accept: */*[\r][\n]"
+2020-12-28 19:04:17 DEBUG wire:73 -  >> "Host: gorest.co.in[\r][\n]"
+2020-12-28 19:04:17 DEBUG wire:73 -  >> "Connection: Keep-Alive[\r][\n]"
+2020-12-28 19:04:17 DEBUG wire:73 -  >> "User-Agent: Apache-HttpClient/4.5.3 (Java/14.0.2)[\r][\n]"
+2020-12-28 19:04:17 DEBUG wire:73 -  >> "Accept-Encoding: gzip,deflate[\r][\n]"
+2020-12-28 19:04:17 DEBUG wire:73 -  >> "[\r][\n]"
+2020-12-28 19:04:17 DEBUG headers:278 - >> GET /public-api/users/123456789 HTTP/1.1
+2020-12-28 19:04:17 DEBUG headers:281 - >> Content-Type: application/json; charset=UTF-8
+2020-12-28 19:04:17 DEBUG headers:281 - >> Authorization: Bearer 97bc2de143d3dcf505355d7ad09170f5f3f1c3e707a445f9513380aa30b1db84
+2020-12-28 19:04:17 DEBUG headers:281 - >> Accept: */*
+2020-12-28 19:04:17 DEBUG headers:281 - >> Host: gorest.co.in
+2020-12-28 19:04:17 DEBUG headers:281 - >> Connection: Keep-Alive
+2020-12-28 19:04:17 DEBUG headers:281 - >> User-Agent: Apache-HttpClient/4.5.3 (Java/14.0.2)
+2020-12-28 19:04:17 DEBUG headers:281 - >> Accept-Encoding: gzip,deflate
+2020-12-28 19:04:17 DEBUG wire:73 -  << "HTTP/1.1 200 OK[\r][\n]"
+2020-12-28 19:04:17 DEBUG wire:73 -  << "Server: nginx[\r][\n]"
+2020-12-28 19:04:17 DEBUG wire:73 -  << "Date: Mon, 28 Dec 2020 13:34:17 GMT[\r][\n]"
+2020-12-28 19:04:17 DEBUG wire:73 -  << "Content-Type: application/json; charset=utf-8[\r][\n]"
+2020-12-28 19:04:17 DEBUG wire:73 -  << "Transfer-Encoding: chunked[\r][\n]"
+2020-12-28 19:04:17 DEBUG wire:73 -  << "Connection: keep-alive[\r][\n]"
+2020-12-28 19:04:17 DEBUG wire:73 -  << "Vary: Accept-Encoding[\r][\n]"
+2020-12-28 19:04:17 DEBUG wire:73 -  << "X-Frame-Options: SAMEORIGIN[\r][\n]"
+2020-12-28 19:04:17 DEBUG wire:73 -  << "X-XSS-Protection: 1; mode=block[\r][\n]"
+2020-12-28 19:04:17 DEBUG wire:73 -  << "X-Content-Type-Options: nosniff[\r][\n]"
+2020-12-28 19:04:17 DEBUG wire:73 -  << "X-Download-Options: noopen[\r][\n]"
+2020-12-28 19:04:17 DEBUG wire:73 -  << "X-Permitted-Cross-Domain-Policies: none[\r][\n]"
+2020-12-28 19:04:17 DEBUG wire:73 -  << "Referrer-Policy: strict-origin-when-cross-origin[\r][\n]"
+2020-12-28 19:04:17 DEBUG wire:73 -  << "ETag: W/"b654e1cd0d3be5d471e57be8f71a8543"[\r][\n]"
+2020-12-28 19:04:17 DEBUG wire:73 -  << "Cache-Control: max-age=0, private, must-revalidate[\r][\n]"
+2020-12-28 19:04:17 DEBUG wire:73 -  << "X-Request-Id: 00440859-b478-48f4-b2d0-b7a97549fcbb[\r][\n]"
+2020-12-28 19:04:17 DEBUG wire:73 -  << "X-Runtime: 0.002489[\r][\n]"
+2020-12-28 19:04:17 DEBUG wire:73 -  << "Strict-Transport-Security: max-age=31536000; includeSubDomains[\r][\n]"
+2020-12-28 19:04:17 DEBUG wire:73 -  << "Vary: Origin[\r][\n]"
+2020-12-28 19:04:17 DEBUG wire:73 -  << "X-Frame-Options: sameorigin[\r][\n]"
+2020-12-28 19:04:17 DEBUG wire:73 -  << "Expect-CT: enforce; max-age=3600[\r][\n]"
+2020-12-28 19:04:17 DEBUG wire:73 -  << "Content-Encoding: gzip[\r][\n]"
+2020-12-28 19:04:17 DEBUG wire:73 -  << "[\r][\n]"
+2020-12-28 19:04:17 DEBUG DefaultClientConnection:259 - Receiving response: HTTP/1.1 200 OK
+2020-12-28 19:04:17 DEBUG headers:262 - << HTTP/1.1 200 OK
+2020-12-28 19:04:17 DEBUG headers:265 - << Server: nginx
+2020-12-28 19:04:17 DEBUG headers:265 - << Date: Mon, 28 Dec 2020 13:34:17 GMT
+2020-12-28 19:04:17 DEBUG headers:265 - << Content-Type: application/json; charset=utf-8
+2020-12-28 19:04:17 DEBUG headers:265 - << Transfer-Encoding: chunked
+2020-12-28 19:04:17 DEBUG headers:265 - << Connection: keep-alive
+2020-12-28 19:04:17 DEBUG headers:265 - << Vary: Accept-Encoding
+2020-12-28 19:04:17 DEBUG headers:265 - << X-Frame-Options: SAMEORIGIN
+2020-12-28 19:04:17 DEBUG headers:265 - << X-XSS-Protection: 1; mode=block
+2020-12-28 19:04:17 DEBUG headers:265 - << X-Content-Type-Options: nosniff
+2020-12-28 19:04:17 DEBUG headers:265 - << X-Download-Options: noopen
+2020-12-28 19:04:17 DEBUG headers:265 - << X-Permitted-Cross-Domain-Policies: none
+2020-12-28 19:04:17 DEBUG headers:265 - << Referrer-Policy: strict-origin-when-cross-origin
+2020-12-28 19:04:17 DEBUG headers:265 - << ETag: W/"b654e1cd0d3be5d471e57be8f71a8543"
+2020-12-28 19:04:17 DEBUG headers:265 - << Cache-Control: max-age=0, private, must-revalidate
+2020-12-28 19:04:17 DEBUG headers:265 - << X-Request-Id: 00440859-b478-48f4-b2d0-b7a97549fcbb
+2020-12-28 19:04:17 DEBUG headers:265 - << X-Runtime: 0.002489
+2020-12-28 19:04:17 DEBUG headers:265 - << Strict-Transport-Security: max-age=31536000; includeSubDomains
+2020-12-28 19:04:17 DEBUG headers:265 - << Vary: Origin
+2020-12-28 19:04:17 DEBUG headers:265 - << X-Frame-Options: sameorigin
+2020-12-28 19:04:17 DEBUG headers:265 - << Expect-CT: enforce; max-age=3600
+2020-12-28 19:04:17 DEBUG headers:265 - << Content-Encoding: gzip
+2020-12-28 19:04:17 DEBUG DefaultHttpClient:509 - Connection can be kept alive indefinitely
+2020-12-28 19:04:17 DEBUG RequestSpecificationImpl$RestAssuredHttpBuilder:545 - Parsing response as: application/json; charset=utf-8
+2020-12-28 19:04:17 DEBUG wire:73 -  << "4f[\r][\n]"
+2020-12-28 19:04:17 DEBUG wire:73 -  << "[0x1f][0x8b][0x8][0x0][0x0][0x0][0x0][0x0][0x0][0x3][0xab]VJ[0xce]OIU[0xb2]210[0xd1]Q[0xca]M-IT[0xb2][0xca]+[0xcd][0xc9][0xd1]QJI[0x4][0xb1][0xab][0x81]b[0xc5][0xc5][0x89][0xe9]@[0x15]JA[0xa9][0xc5][0xf9][0xa5]E[0xc9][0xa9][\n]"
+2020-12-28 19:04:17 DEBUG wire:73 -  << "y[0xf9]%[\n]"
+2020-12-28 19:04:17 DEBUG wire:87 -  << "i[0xf9][0xa5]y)J[0xb5][0xb5][0x0][0xc5]u[0x8a]D@[0x0][0x0][0x0]"
+2020-12-28 19:04:17 DEBUG wire:73 -  << "[\r][\n]"
+2020-12-28 19:04:17 DEBUG wire:73 -  << "0[\r][\n]"
+2020-12-28 19:04:17 DEBUG wire:73 -  << "[\r][\n]"
+2020-12-28 19:04:17 DEBUG RequestSpecificationImpl$RestAssuredHttpBuilder:548 - Parsed data to instance of: class org.apache.http.conn.EofSensorInputStream
+2020-12-28 19:04:17 DEBUG BasicClientConnectionManager:200 - Releasing connection org.apache.http.impl.conn.ManagedClientConnectionImpl@450f0235
+2020-12-28 19:04:17 DEBUG BasicClientConnectionManager:225 - Connection can be kept alive indefinitely
+2020-12-28 19:04:18 DEBUG BasicClientConnectionManager:161 - Get connection for route {s}->https://gorest.co.in:443
+2020-12-28 19:04:18 DEBUG DefaultClientConnectionOperator:177 - Connecting to gorest.co.in:443
+2020-12-28 19:04:18 DEBUG RequestAddCookies:123 - CookieSpec selected: ignoreCookies
+2020-12-28 19:04:18 DEBUG RequestAuthCache:77 - Auth cache not set in the context
+2020-12-28 19:04:18 DEBUG RequestProxyAuthentication:89 - Proxy auth state: UNCHALLENGED
+2020-12-28 19:04:18 DEBUG DefaultHttpClient:682 - Attempt 1 to execute request
+2020-12-28 19:04:18 DEBUG DefaultClientConnection:274 - Sending request: PUT /public-api/users/1598 HTTP/1.1
+2020-12-28 19:04:18 DEBUG wire:73 -  >> "PUT /public-api/users/1598 HTTP/1.1[\r][\n]"
+2020-12-28 19:04:18 DEBUG wire:73 -  >> "Authorization: Bearer 97bc2de143d3dcf505355d7ad09170f5f3f1c3e707a445f9513380aa30b1db84[\r][\n]"
+2020-12-28 19:04:18 DEBUG wire:73 -  >> "Accept: */*[\r][\n]"
+2020-12-28 19:04:18 DEBUG wire:73 -  >> "Content-Type: application/json; charset=UTF-8[\r][\n]"
+2020-12-28 19:04:18 DEBUG wire:73 -  >> "Content-Length: 40[\r][\n]"
+2020-12-28 19:04:18 DEBUG wire:73 -  >> "Host: gorest.co.in[\r][\n]"
+2020-12-28 19:04:18 DEBUG wire:73 -  >> "Connection: Keep-Alive[\r][\n]"
+2020-12-28 19:04:18 DEBUG wire:73 -  >> "User-Agent: Apache-HttpClient/4.5.3 (Java/14.0.2)[\r][\n]"
+2020-12-28 19:04:18 DEBUG wire:73 -  >> "Accept-Encoding: gzip,deflate[\r][\n]"
+2020-12-28 19:04:18 DEBUG wire:73 -  >> "[\r][\n]"
+2020-12-28 19:04:18 DEBUG headers:278 - >> PUT /public-api/users/1598 HTTP/1.1
+2020-12-28 19:04:18 DEBUG headers:281 - >> Authorization: Bearer 97bc2de143d3dcf505355d7ad09170f5f3f1c3e707a445f9513380aa30b1db84
+2020-12-28 19:04:18 DEBUG headers:281 - >> Accept: */*
+2020-12-28 19:04:18 DEBUG headers:281 - >> Content-Type: application/json; charset=UTF-8
+2020-12-28 19:04:18 DEBUG headers:281 - >> Content-Length: 40
+2020-12-28 19:04:18 DEBUG headers:281 - >> Host: gorest.co.in
+2020-12-28 19:04:18 DEBUG headers:281 - >> Connection: Keep-Alive
+2020-12-28 19:04:18 DEBUG headers:281 - >> User-Agent: Apache-HttpClient/4.5.3 (Java/14.0.2)
+2020-12-28 19:04:18 DEBUG headers:281 - >> Accept-Encoding: gzip,deflate
+2020-12-28 19:04:18 DEBUG wire:87 -  >> "{"email":"saurabhkumar131123@gmail.com"}"
+2020-12-28 19:04:18 DEBUG wire:73 -  << "HTTP/1.1 200 OK[\r][\n]"
+2020-12-28 19:04:18 DEBUG wire:73 -  << "Server: nginx[\r][\n]"
+2020-12-28 19:04:18 DEBUG wire:73 -  << "Date: Mon, 28 Dec 2020 13:34:18 GMT[\r][\n]"
+2020-12-28 19:04:18 DEBUG wire:73 -  << "Content-Type: application/json; charset=utf-8[\r][\n]"
+2020-12-28 19:04:18 DEBUG wire:73 -  << "Transfer-Encoding: chunked[\r][\n]"
+2020-12-28 19:04:18 DEBUG wire:73 -  << "Connection: keep-alive[\r][\n]"
+2020-12-28 19:04:18 DEBUG wire:73 -  << "Vary: Accept-Encoding[\r][\n]"
+2020-12-28 19:04:18 DEBUG wire:73 -  << "X-Frame-Options: SAMEORIGIN[\r][\n]"
+2020-12-28 19:04:18 DEBUG wire:73 -  << "X-XSS-Protection: 1; mode=block[\r][\n]"
+2020-12-28 19:04:18 DEBUG wire:73 -  << "X-Content-Type-Options: nosniff[\r][\n]"
+2020-12-28 19:04:18 DEBUG wire:73 -  << "X-Download-Options: noopen[\r][\n]"
+2020-12-28 19:04:18 DEBUG wire:73 -  << "X-Permitted-Cross-Domain-Policies: none[\r][\n]"
+2020-12-28 19:04:18 DEBUG wire:73 -  << "Referrer-Policy: strict-origin-when-cross-origin[\r][\n]"
+2020-12-28 19:04:18 DEBUG wire:73 -  << "ETag: W/"70aa36a11d9b91038647d9cba4b94804"[\r][\n]"
+2020-12-28 19:04:18 DEBUG wire:73 -  << "Cache-Control: max-age=0, private, must-revalidate[\r][\n]"
+2020-12-28 19:04:18 DEBUG wire:73 -  << "X-Request-Id: eb4ac77a-2b4f-4438-a2b0-9b4db9361c3a[\r][\n]"
+2020-12-28 19:04:18 DEBUG wire:73 -  << "X-Runtime: 0.020865[\r][\n]"
+2020-12-28 19:04:18 DEBUG wire:73 -  << "Strict-Transport-Security: max-age=31536000; includeSubDomains[\r][\n]"
+2020-12-28 19:04:18 DEBUG wire:73 -  << "Vary: Origin[\r][\n]"
+2020-12-28 19:04:18 DEBUG wire:73 -  << "X-Frame-Options: sameorigin[\r][\n]"
+2020-12-28 19:04:18 DEBUG wire:73 -  << "Expect-CT: enforce; max-age=3600[\r][\n]"
+2020-12-28 19:04:18 DEBUG wire:73 -  << "Content-Encoding: gzip[\r][\n]"
+2020-12-28 19:04:18 DEBUG wire:73 -  << "[\r][\n]"
+2020-12-28 19:04:18 DEBUG DefaultClientConnection:259 - Receiving response: HTTP/1.1 200 OK
+2020-12-28 19:04:18 DEBUG headers:262 - << HTTP/1.1 200 OK
+2020-12-28 19:04:18 DEBUG headers:265 - << Server: nginx
+2020-12-28 19:04:18 DEBUG headers:265 - << Date: Mon, 28 Dec 2020 13:34:18 GMT
+2020-12-28 19:04:18 DEBUG headers:265 - << Content-Type: application/json; charset=utf-8
+2020-12-28 19:04:18 DEBUG headers:265 - << Transfer-Encoding: chunked
+2020-12-28 19:04:18 DEBUG headers:265 - << Connection: keep-alive
+2020-12-28 19:04:18 DEBUG headers:265 - << Vary: Accept-Encoding
+2020-12-28 19:04:18 DEBUG headers:265 - << X-Frame-Options: SAMEORIGIN
+2020-12-28 19:04:18 DEBUG headers:265 - << X-XSS-Protection: 1; mode=block
+2020-12-28 19:04:18 DEBUG headers:265 - << X-Content-Type-Options: nosniff
+2020-12-28 19:04:18 DEBUG headers:265 - << X-Download-Options: noopen
+2020-12-28 19:04:18 DEBUG headers:265 - << X-Permitted-Cross-Domain-Policies: none
+2020-12-28 19:04:18 DEBUG headers:265 - << Referrer-Policy: strict-origin-when-cross-origin
+2020-12-28 19:04:18 DEBUG headers:265 - << ETag: W/"70aa36a11d9b91038647d9cba4b94804"
+2020-12-28 19:04:18 DEBUG headers:265 - << Cache-Control: max-age=0, private, must-revalidate
+2020-12-28 19:04:18 DEBUG headers:265 - << X-Request-Id: eb4ac77a-2b4f-4438-a2b0-9b4db9361c3a
+2020-12-28 19:04:18 DEBUG headers:265 - << X-Runtime: 0.020865
+2020-12-28 19:04:18 DEBUG headers:265 - << Strict-Transport-Security: max-age=31536000; includeSubDomains
+2020-12-28 19:04:18 DEBUG headers:265 - << Vary: Origin
+2020-12-28 19:04:18 DEBUG headers:265 - << X-Frame-Options: sameorigin
+2020-12-28 19:04:18 DEBUG headers:265 - << Expect-CT: enforce; max-age=3600
+2020-12-28 19:04:18 DEBUG headers:265 - << Content-Encoding: gzip
+2020-12-28 19:04:18 DEBUG DefaultHttpClient:509 - Connection can be kept alive indefinitely
+2020-12-28 19:04:18 DEBUG RequestSpecificationImpl$RestAssuredHttpBuilder:545 - Parsing response as: application/json; charset=utf-8
+2020-12-28 19:04:18 DEBUG wire:73 -  << "ae[\r][\n]"
+2020-12-28 19:04:18 DEBUG wire:73 -  << "[0x1f][0x8b][0x8][0x0][0x0][0x0][0x0][0x0][0x0][0x3]}[0x8d][0xcb][0xe][0x82]0[0x10]E[0xff]e[0xb6][0x16][0xd2][0x7][0x10][0xe8]J?[0xc0][0x95][0xee][0xcd][0xd8]N[0x90]H[0xc1][0x94][0xd6][\r][0xe1][0xdf][0x1d][0xa2]kws[0xcf]=[0xb9][0xb3][0x82][0x9b]=[0x81][0xd5]R[\n]"
+2020-12-28 19:04:18 DEBUG wire:87 -  << "[0x8][0x94][0x10][0xec][0x94][0xc7]Q[0x80][0xc7][0xfd]^a[0xf0]`U[0xdd][0xb5][0x2]([0xe0]0[0x82][0x85][0x5]s[0xc4][0xfb][0xe3][0x99][0x3]Fe[0x94][0xd2][0xe6][0xd8][0xef]U[0xe9][0xe6][0x0][0x2]&[0xc][0xbc][0x7][0x97][0xaf][0xc5][0xa0][0xa7][0xc9]Sdt[0xc6][0x91]8/[0x9]S^8[0x9f]\[0x1a][0xde];q[0x91]0[0x91][0xbf]ab[0xaa][0xa5][0x96][0x85][0xd2][0x85]n[0xaf][0xaa][0xb3][0xb2][0xe2][0xef]e[0xd3][0xc8][0x83][0xac][0xad][0x91],[0xe7][0x97][0xff]'[0xb7]ee[0xcc]O[0xde][0xb6][0xf][0x82]d[0x94][0xe6][0xdf][0x0][0x0][0x0]"
+2020-12-28 19:04:18 DEBUG wire:73 -  << "[\r][\n]"
+2020-12-28 19:04:18 DEBUG wire:73 -  << "0[\r][\n]"
+2020-12-28 19:04:18 DEBUG wire:73 -  << "[\r][\n]"
+2020-12-28 19:04:18 DEBUG RequestSpecificationImpl$RestAssuredHttpBuilder:548 - Parsed data to instance of: class org.apache.http.conn.EofSensorInputStream
+2020-12-28 19:04:18 DEBUG BasicClientConnectionManager:200 - Releasing connection org.apache.http.impl.conn.ManagedClientConnectionImpl@7abeabe9
+2020-12-28 19:04:18 DEBUG BasicClientConnectionManager:225 - Connection can be kept alive indefinitely
+2020-12-28 19:04:18 DEBUG BasicClientConnectionManager:161 - Get connection for route {s}->https://gorest.co.in:443
+2020-12-28 19:04:18 DEBUG DefaultClientConnectionOperator:177 - Connecting to gorest.co.in:443
+2020-12-28 19:04:18 DEBUG RequestAddCookies:123 - CookieSpec selected: ignoreCookies
+2020-12-28 19:04:18 DEBUG RequestAuthCache:77 - Auth cache not set in the context
+2020-12-28 19:04:18 DEBUG RequestProxyAuthentication:89 - Proxy auth state: UNCHALLENGED
+2020-12-28 19:04:18 DEBUG DefaultHttpClient:682 - Attempt 1 to execute request
+2020-12-28 19:04:18 DEBUG DefaultClientConnection:274 - Sending request: PUT /public-api/users/1598 HTTP/1.1
+2020-12-28 19:04:18 DEBUG wire:73 -  >> "PUT /public-api/users/1598 HTTP/1.1[\r][\n]"
+2020-12-28 19:04:18 DEBUG wire:73 -  >> "Authorization: Bearer 97bc2de143d3dcf505355d7ad09170f5f3f1c3e707a445f9513380aa30b1db84[\r][\n]"
+2020-12-28 19:04:18 DEBUG wire:73 -  >> "Accept: */*[\r][\n]"
+2020-12-28 19:04:18 DEBUG wire:73 -  >> "Content-Type: application/json; charset=UTF-8[\r][\n]"
+2020-12-28 19:04:18 DEBUG wire:73 -  >> "Content-Length: 12[\r][\n]"
+2020-12-28 19:04:18 DEBUG wire:73 -  >> "Host: gorest.co.in[\r][\n]"
+2020-12-28 19:04:18 DEBUG wire:73 -  >> "Connection: Keep-Alive[\r][\n]"
+2020-12-28 19:04:18 DEBUG wire:73 -  >> "User-Agent: Apache-HttpClient/4.5.3 (Java/14.0.2)[\r][\n]"
+2020-12-28 19:04:18 DEBUG wire:73 -  >> "Accept-Encoding: gzip,deflate[\r][\n]"
+2020-12-28 19:04:18 DEBUG wire:73 -  >> "[\r][\n]"
+2020-12-28 19:04:18 DEBUG headers:278 - >> PUT /public-api/users/1598 HTTP/1.1
+2020-12-28 19:04:18 DEBUG headers:281 - >> Authorization: Bearer 97bc2de143d3dcf505355d7ad09170f5f3f1c3e707a445f9513380aa30b1db84
+2020-12-28 19:04:18 DEBUG headers:281 - >> Accept: */*
+2020-12-28 19:04:18 DEBUG headers:281 - >> Content-Type: application/json; charset=UTF-8
+2020-12-28 19:04:18 DEBUG headers:281 - >> Content-Length: 12
+2020-12-28 19:04:18 DEBUG headers:281 - >> Host: gorest.co.in
+2020-12-28 19:04:18 DEBUG headers:281 - >> Connection: Keep-Alive
+2020-12-28 19:04:18 DEBUG headers:281 - >> User-Agent: Apache-HttpClient/4.5.3 (Java/14.0.2)
+2020-12-28 19:04:18 DEBUG headers:281 - >> Accept-Encoding: gzip,deflate
+2020-12-28 19:04:18 DEBUG wire:87 -  >> "{"email":""}"
+2020-12-28 19:04:19 DEBUG wire:73 -  << "HTTP/1.1 200 OK[\r][\n]"
+2020-12-28 19:04:19 DEBUG wire:73 -  << "Server: nginx[\r][\n]"
+2020-12-28 19:04:19 DEBUG wire:73 -  << "Date: Mon, 28 Dec 2020 13:34:18 GMT[\r][\n]"
+2020-12-28 19:04:19 DEBUG wire:73 -  << "Content-Type: application/json; charset=utf-8[\r][\n]"
+2020-12-28 19:04:19 DEBUG wire:73 -  << "Transfer-Encoding: chunked[\r][\n]"
+2020-12-28 19:04:19 DEBUG wire:73 -  << "Connection: keep-alive[\r][\n]"
+2020-12-28 19:04:19 DEBUG wire:73 -  << "Vary: Accept-Encoding[\r][\n]"
+2020-12-28 19:04:19 DEBUG wire:73 -  << "X-Frame-Options: SAMEORIGIN[\r][\n]"
+2020-12-28 19:04:19 DEBUG wire:73 -  << "X-XSS-Protection: 1; mode=block[\r][\n]"
+2020-12-28 19:04:19 DEBUG wire:73 -  << "X-Content-Type-Options: nosniff[\r][\n]"
+2020-12-28 19:04:19 DEBUG wire:73 -  << "X-Download-Options: noopen[\r][\n]"
+2020-12-28 19:04:19 DEBUG wire:73 -  << "X-Permitted-Cross-Domain-Policies: none[\r][\n]"
+2020-12-28 19:04:19 DEBUG wire:73 -  << "Referrer-Policy: strict-origin-when-cross-origin[\r][\n]"
+2020-12-28 19:04:19 DEBUG wire:73 -  << "ETag: W/"4e18deb95e8cbeac18bb56142a2b3ad7"[\r][\n]"
+2020-12-28 19:04:19 DEBUG wire:73 -  << "Cache-Control: max-age=0, private, must-revalidate[\r][\n]"
+2020-12-28 19:04:19 DEBUG wire:73 -  << "X-Request-Id: 769942dc-91f5-4a4f-a61e-651b739caf45[\r][\n]"
+2020-12-28 19:04:19 DEBUG wire:73 -  << "X-Runtime: 0.013370[\r][\n]"
+2020-12-28 19:04:19 DEBUG wire:73 -  << "Strict-Transport-Security: max-age=31536000; includeSubDomains[\r][\n]"
+2020-12-28 19:04:19 DEBUG wire:73 -  << "Vary: Origin[\r][\n]"
+2020-12-28 19:04:19 DEBUG wire:73 -  << "X-Frame-Options: sameorigin[\r][\n]"
+2020-12-28 19:04:19 DEBUG wire:73 -  << "Expect-CT: enforce; max-age=3600[\r][\n]"
+2020-12-28 19:04:19 DEBUG wire:73 -  << "Content-Encoding: gzip[\r][\n]"
+2020-12-28 19:04:19 DEBUG wire:73 -  << "[\r][\n]"
+2020-12-28 19:04:19 DEBUG DefaultClientConnection:259 - Receiving response: HTTP/1.1 200 OK
+2020-12-28 19:04:19 DEBUG headers:262 - << HTTP/1.1 200 OK
+2020-12-28 19:04:19 DEBUG headers:265 - << Server: nginx
+2020-12-28 19:04:19 DEBUG headers:265 - << Date: Mon, 28 Dec 2020 13:34:18 GMT
+2020-12-28 19:04:19 DEBUG headers:265 - << Content-Type: application/json; charset=utf-8
+2020-12-28 19:04:19 DEBUG headers:265 - << Transfer-Encoding: chunked
+2020-12-28 19:04:19 DEBUG headers:265 - << Connection: keep-alive
+2020-12-28 19:04:19 DEBUG headers:265 - << Vary: Accept-Encoding
+2020-12-28 19:04:19 DEBUG headers:265 - << X-Frame-Options: SAMEORIGIN
+2020-12-28 19:04:19 DEBUG headers:265 - << X-XSS-Protection: 1; mode=block
+2020-12-28 19:04:19 DEBUG headers:265 - << X-Content-Type-Options: nosniff
+2020-12-28 19:04:19 DEBUG headers:265 - << X-Download-Options: noopen
+2020-12-28 19:04:19 DEBUG headers:265 - << X-Permitted-Cross-Domain-Policies: none
+2020-12-28 19:04:19 DEBUG headers:265 - << Referrer-Policy: strict-origin-when-cross-origin
+2020-12-28 19:04:19 DEBUG headers:265 - << ETag: W/"4e18deb95e8cbeac18bb56142a2b3ad7"
+2020-12-28 19:04:19 DEBUG headers:265 - << Cache-Control: max-age=0, private, must-revalidate
+2020-12-28 19:04:19 DEBUG headers:265 - << X-Request-Id: 769942dc-91f5-4a4f-a61e-651b739caf45
+2020-12-28 19:04:19 DEBUG headers:265 - << X-Runtime: 0.013370
+2020-12-28 19:04:19 DEBUG headers:265 - << Strict-Transport-Security: max-age=31536000; includeSubDomains
+2020-12-28 19:04:19 DEBUG headers:265 - << Vary: Origin
+2020-12-28 19:04:19 DEBUG headers:265 - << X-Frame-Options: sameorigin
+2020-12-28 19:04:19 DEBUG headers:265 - << Expect-CT: enforce; max-age=3600
+2020-12-28 19:04:19 DEBUG headers:265 - << Content-Encoding: gzip
+2020-12-28 19:04:19 DEBUG DefaultHttpClient:509 - Connection can be kept alive indefinitely
+2020-12-28 19:04:19 DEBUG RequestSpecificationImpl$RestAssuredHttpBuilder:545 - Parsing response as: application/json; charset=utf-8
+2020-12-28 19:04:19 DEBUG wire:73 -  << "5c[\r][\n]"
+2020-12-28 19:04:19 DEBUG wire:87 -  << "[0x1f][0x8b][0x8][0x0][0x0][0x0][0x0][0x0][0x0][0x3][0xab]VJ[0xce]OIU[0xb2]212[0xd2]Q[0xca]M-IT[0xb2][0xca]+[0xcd][0xc9][0xd1]QJI[0x4][0xb1][0xa3][0xab][0x95][0xd2]2SsR[0x94][0xac][0x94]Rs[0x13]3s[0x94]@[0x8a][0x8a][0x8b][0x13][0xd3][0x81]Z[0x94][0x92][0x13][0xf3][0xd4]K[0x14][0x92]R[0x15][0x92]r[0x12][0xf3][0xb2][0x95]jck[0x1]_[0xa9][0x19][0xce]N[0x0][0x0][0x0]"
+2020-12-28 19:04:19 DEBUG wire:73 -  << "[\r][\n]"
+2020-12-28 19:04:19 DEBUG wire:73 -  << "0[\r][\n]"
+2020-12-28 19:04:19 DEBUG wire:73 -  << "[\r][\n]"
+2020-12-28 19:04:19 DEBUG RequestSpecificationImpl$RestAssuredHttpBuilder:548 - Parsed data to instance of: class org.apache.http.conn.EofSensorInputStream
+2020-12-28 19:04:19 DEBUG BasicClientConnectionManager:200 - Releasing connection org.apache.http.impl.conn.ManagedClientConnectionImpl@7ec08115
+2020-12-28 19:04:19 DEBUG BasicClientConnectionManager:225 - Connection can be kept alive indefinitely
+2020-12-28 19:04:19 DEBUG BasicClientConnectionManager:161 - Get connection for route {s}->https://gorest.co.in:443
+2020-12-28 19:04:19 DEBUG DefaultClientConnectionOperator:177 - Connecting to gorest.co.in:443
+2020-12-28 19:04:19 DEBUG RequestAddCookies:123 - CookieSpec selected: ignoreCookies
+2020-12-28 19:04:19 DEBUG RequestAuthCache:77 - Auth cache not set in the context
+2020-12-28 19:04:19 DEBUG RequestProxyAuthentication:89 - Proxy auth state: UNCHALLENGED
+2020-12-28 19:04:19 DEBUG DefaultHttpClient:682 - Attempt 1 to execute request
+2020-12-28 19:04:19 DEBUG DefaultClientConnection:274 - Sending request: DELETE /public-api/users/1598 HTTP/1.1
+2020-12-28 19:04:19 DEBUG wire:73 -  >> "DELETE /public-api/users/1598 HTTP/1.1[\r][\n]"
+2020-12-28 19:04:19 DEBUG wire:73 -  >> "Content-Type: application/json; charset=UTF-8[\r][\n]"
+2020-12-28 19:04:19 DEBUG wire:73 -  >> "Authorization: Bearer 97bc2de143d3dcf505355d7ad09170f5f3f1c3e707a445f9513380aa30b1db84[\r][\n]"
+2020-12-28 19:04:19 DEBUG wire:73 -  >> "Accept: */*[\r][\n]"
+2020-12-28 19:04:19 DEBUG wire:73 -  >> "Host: gorest.co.in[\r][\n]"
+2020-12-28 19:04:19 DEBUG wire:73 -  >> "Connection: Keep-Alive[\r][\n]"
+2020-12-28 19:04:19 DEBUG wire:73 -  >> "User-Agent: Apache-HttpClient/4.5.3 (Java/14.0.2)[\r][\n]"
+2020-12-28 19:04:19 DEBUG wire:73 -  >> "Accept-Encoding: gzip,deflate[\r][\n]"
+2020-12-28 19:04:19 DEBUG wire:73 -  >> "[\r][\n]"
+2020-12-28 19:04:19 DEBUG headers:278 - >> DELETE /public-api/users/1598 HTTP/1.1
+2020-12-28 19:04:19 DEBUG headers:281 - >> Content-Type: application/json; charset=UTF-8
+2020-12-28 19:04:19 DEBUG headers:281 - >> Authorization: Bearer 97bc2de143d3dcf505355d7ad09170f5f3f1c3e707a445f9513380aa30b1db84
+2020-12-28 19:04:19 DEBUG headers:281 - >> Accept: */*
+2020-12-28 19:04:19 DEBUG headers:281 - >> Host: gorest.co.in
+2020-12-28 19:04:19 DEBUG headers:281 - >> Connection: Keep-Alive
+2020-12-28 19:04:19 DEBUG headers:281 - >> User-Agent: Apache-HttpClient/4.5.3 (Java/14.0.2)
+2020-12-28 19:04:19 DEBUG headers:281 - >> Accept-Encoding: gzip,deflate
+2020-12-28 19:04:19 DEBUG wire:73 -  << "HTTP/1.1 200 OK[\r][\n]"
+2020-12-28 19:04:19 DEBUG wire:73 -  << "Server: nginx[\r][\n]"
+2020-12-28 19:04:19 DEBUG wire:73 -  << "Date: Mon, 28 Dec 2020 13:34:19 GMT[\r][\n]"
+2020-12-28 19:04:19 DEBUG wire:73 -  << "Content-Type: application/json; charset=utf-8[\r][\n]"
+2020-12-28 19:04:19 DEBUG wire:73 -  << "Transfer-Encoding: chunked[\r][\n]"
+2020-12-28 19:04:19 DEBUG wire:73 -  << "Connection: keep-alive[\r][\n]"
+2020-12-28 19:04:19 DEBUG wire:73 -  << "Vary: Accept-Encoding[\r][\n]"
+2020-12-28 19:04:19 DEBUG wire:73 -  << "X-Frame-Options: SAMEORIGIN[\r][\n]"
+2020-12-28 19:04:19 DEBUG wire:73 -  << "X-XSS-Protection: 1; mode=block[\r][\n]"
+2020-12-28 19:04:19 DEBUG wire:73 -  << "X-Content-Type-Options: nosniff[\r][\n]"
+2020-12-28 19:04:19 DEBUG wire:73 -  << "X-Download-Options: noopen[\r][\n]"
+2020-12-28 19:04:19 DEBUG wire:73 -  << "X-Permitted-Cross-Domain-Policies: none[\r][\n]"
+2020-12-28 19:04:19 DEBUG wire:73 -  << "Referrer-Policy: strict-origin-when-cross-origin[\r][\n]"
+2020-12-28 19:04:19 DEBUG wire:73 -  << "ETag: W/"9132bec7c413b5b015be1efe1c6efe72"[\r][\n]"
+2020-12-28 19:04:19 DEBUG wire:73 -  << "Cache-Control: max-age=0, private, must-revalidate[\r][\n]"
+2020-12-28 19:04:19 DEBUG wire:73 -  << "X-Request-Id: c56cb4d5-5fbd-4147-8f33-eb47903e0ee4[\r][\n]"
+2020-12-28 19:04:19 DEBUG wire:73 -  << "X-Runtime: 0.010333[\r][\n]"
+2020-12-28 19:04:19 DEBUG wire:73 -  << "Strict-Transport-Security: max-age=31536000; includeSubDomains[\r][\n]"
+2020-12-28 19:04:19 DEBUG wire:73 -  << "Vary: Origin[\r][\n]"
+2020-12-28 19:04:19 DEBUG wire:73 -  << "X-Frame-Options: sameorigin[\r][\n]"
+2020-12-28 19:04:19 DEBUG wire:73 -  << "Expect-CT: enforce; max-age=3600[\r][\n]"
+2020-12-28 19:04:19 DEBUG wire:73 -  << "Content-Encoding: gzip[\r][\n]"
+2020-12-28 19:04:19 DEBUG wire:73 -  << "[\r][\n]"
+2020-12-28 19:04:19 DEBUG DefaultClientConnection:259 - Receiving response: HTTP/1.1 200 OK
+2020-12-28 19:04:19 DEBUG headers:262 - << HTTP/1.1 200 OK
+2020-12-28 19:04:19 DEBUG headers:265 - << Server: nginx
+2020-12-28 19:04:19 DEBUG headers:265 - << Date: Mon, 28 Dec 2020 13:34:19 GMT
+2020-12-28 19:04:19 DEBUG headers:265 - << Content-Type: application/json; charset=utf-8
+2020-12-28 19:04:19 DEBUG headers:265 - << Transfer-Encoding: chunked
+2020-12-28 19:04:19 DEBUG headers:265 - << Connection: keep-alive
+2020-12-28 19:04:19 DEBUG headers:265 - << Vary: Accept-Encoding
+2020-12-28 19:04:19 DEBUG headers:265 - << X-Frame-Options: SAMEORIGIN
+2020-12-28 19:04:19 DEBUG headers:265 - << X-XSS-Protection: 1; mode=block
+2020-12-28 19:04:19 DEBUG headers:265 - << X-Content-Type-Options: nosniff
+2020-12-28 19:04:19 DEBUG headers:265 - << X-Download-Options: noopen
+2020-12-28 19:04:19 DEBUG headers:265 - << X-Permitted-Cross-Domain-Policies: none
+2020-12-28 19:04:19 DEBUG headers:265 - << Referrer-Policy: strict-origin-when-cross-origin
+2020-12-28 19:04:19 DEBUG headers:265 - << ETag: W/"9132bec7c413b5b015be1efe1c6efe72"
+2020-12-28 19:04:19 DEBUG headers:265 - << Cache-Control: max-age=0, private, must-revalidate
+2020-12-28 19:04:19 DEBUG headers:265 - << X-Request-Id: c56cb4d5-5fbd-4147-8f33-eb47903e0ee4
+2020-12-28 19:04:19 DEBUG headers:265 - << X-Runtime: 0.010333
+2020-12-28 19:04:19 DEBUG headers:265 - << Strict-Transport-Security: max-age=31536000; includeSubDomains
+2020-12-28 19:04:19 DEBUG headers:265 - << Vary: Origin
+2020-12-28 19:04:19 DEBUG headers:265 - << X-Frame-Options: sameorigin
+2020-12-28 19:04:19 DEBUG headers:265 - << Expect-CT: enforce; max-age=3600
+2020-12-28 19:04:19 DEBUG headers:265 - << Content-Encoding: gzip
+2020-12-28 19:04:19 DEBUG DefaultHttpClient:509 - Connection can be kept alive indefinitely
+2020-12-28 19:04:19 DEBUG RequestSpecificationImpl$RestAssuredHttpBuilder:545 - Parsing response as: application/json; charset=utf-8
+2020-12-28 19:04:19 DEBUG wire:73 -  << "31[\r][\n]"
+2020-12-28 19:04:19 DEBUG DefaultClientConnection:180 - Connection 0.0.0.0:59234<->68.183.184.154:443 closed
+2020-12-28 19:04:19 DEBUG wire:87 -  << "[0x1f][0x8b][0x8][0x0][0x0][0x0][0x0][0x0][0x0][0x3][0xab]VJ[0xce]OIU[0xb2]220[0xd1]Q[0xca]M-IT[0xb2][0xca]+[0xcd][0xc9][0xd1]QJI[0x84][0xb1]k[0x1]z[0xc1][0x18][0xd9]$[0x0][0x0][0x0]"
+2020-12-28 19:04:19 DEBUG wire:73 -  << "[\r][\n]"
+2020-12-28 19:04:19 DEBUG wire:73 -  << "0[\r][\n]"
+2020-12-28 19:04:19 DEBUG wire:73 -  << "[\r][\n]"
+2020-12-28 19:04:19 DEBUG DefaultClientConnection:180 - Connection 0.0.0.0:59233<->68.183.184.154:443 closed
+2020-12-28 19:04:19 DEBUG RequestSpecificationImpl$RestAssuredHttpBuilder:548 - Parsed data to instance of: class org.apache.http.conn.EofSensorInputStream
+2020-12-28 19:04:19 DEBUG DefaultClientConnection:180 - Connection 0.0.0.0:59236<->68.183.184.154:443 closed
+2020-12-28 19:04:19 DEBUG BasicClientConnectionManager:200 - Releasing connection org.apache.http.impl.conn.ManagedClientConnectionImpl@496cc217
+2020-12-28 19:04:19 DEBUG BasicClientConnectionManager:225 - Connection can be kept alive indefinitely
+2020-12-28 19:04:19 DEBUG DefaultClientConnection:180 - Connection 0.0.0.0:59235<->68.183.184.154:443 closed
+2020-12-28 19:04:19 DEBUG cache:45 - Couldn't find template in cache for "Extent.ftl"("en_IN", UTF-8, parsed); will try to load it.
+2020-12-28 19:04:19 DEBUG cache:45 - TemplateLoader.findTemplateSource("Extent_en_IN.ftl"): Not found
+2020-12-28 19:04:19 DEBUG cache:45 - TemplateLoader.findTemplateSource("Extent_en.ftl"): Not found
+2020-12-28 19:04:19 DEBUG cache:45 - TemplateLoader.findTemplateSource("Extent.ftl"): Found
+2020-12-28 19:04:19 DEBUG cache:45 - Loading template for "Extent.ftl"("en_IN", UTF-8, parsed) from "jar:file:/C:/Users/saurabhkumar04/.m2/repository/com/relevantcodes/extentreports/2.41.2/extentreports-2.41.2.jar!/com/relevantcodes/extentreports/view/Extent.ftl"
+2020-12-28 19:04:20 DEBUG cache:45 - Couldn't find template in cache for "Extent.ftl"("en_IN", UTF-8, parsed); will try to load it.
+2020-12-28 19:04:20 DEBUG cache:45 - TemplateLoader.findTemplateSource("Extent_en_IN.ftl"): Not found
+2020-12-28 19:04:20 DEBUG cache:45 - TemplateLoader.findTemplateSource("Extent_en.ftl"): Not found
+2020-12-28 19:04:20 DEBUG cache:45 - TemplateLoader.findTemplateSource("Extent.ftl"): Found
+2020-12-28 19:04:20 DEBUG cache:45 - Loading template for "Extent.ftl"("en_IN", UTF-8, parsed) from "jar:file:/C:/Users/saurabhkumar04/.m2/repository/com/relevantcodes/extentreports/2.41.2/extentreports-2.41.2.jar!/com/relevantcodes/extentreports/view/Extent.ftl"

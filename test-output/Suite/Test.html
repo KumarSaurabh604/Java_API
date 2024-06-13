@@ -1,0 +1,152 @@
+<html>
+<head>
+<title>TestNG:  Test</title>
+<link href="../testng.css" rel="stylesheet" type="text/css" />
+<link href="../my-testng.css" rel="stylesheet" type="text/css" />
+
+<style type="text/css">
+.log { display: none;} 
+.stack-trace { display: none;} 
+</style>
+<script type="text/javascript">
+<!--
+function flip(e) {
+  current = e.style.display;
+  if (current == 'block') {
+    e.style.display = 'none';
+    return 0;
+  }
+  else {
+    e.style.display = 'block';
+    return 1;
+  }
+}
+
+function toggleBox(szDivId, elem, msg1, msg2)
+{
+  var res = -1;  if (document.getElementById) {
+    res = flip(document.getElementById(szDivId));
+  }
+  else if (document.all) {
+    // this is the way old msie versions work
+    res = flip(document.all[szDivId]);
+  }
+  if(elem) {
+    if(res == 0) elem.innerHTML = msg1; else elem.innerHTML = msg2;
+  }
+
+}
+
+function toggleAllBoxes() {
+  if (document.getElementsByTagName) {
+    d = document.getElementsByTagName('div');
+    for (i = 0; i < d.length; i++) {
+      if (d[i].className == 'log') {
+        flip(d[i]);
+      }
+    }
+  }
+}
+
+// -->
+</script>
+
+</head>
+<body>
+<h2 align='center'>Test</h2><table border='1' align="center">
+<tr>
+<td>Tests passed/Failed/Skipped:</td><td>6/0/0</td>
+</tr><tr>
+<td>Started on:</td><td>Mon Dec 28 19:04:12 IST 2020</td>
+</tr>
+<tr><td>Total time:</td><td>7 seconds (7519 ms)</td>
+</tr><tr>
+<td>Included groups:</td><td></td>
+</tr><tr>
+<td>Excluded groups:</td><td></td>
+</tr>
+</table><p/>
+<small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-passed'>
+<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='CreateNewUser.CreateUser()'><b>CreateUser</b><br>Test class: CreateNewUser<br/>
+<a href="#Output-703841336" onClick='toggleBox("Output-703841336", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-703841336" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-703841336">
+Generated New Id: 1598<br/>
+</div>
+</td>
+<td></td>
+<td>4</td>
+<td>CreateNewUser@3059cbc</td></tr>
+<tr>
+<td title='DeleteUserDetail.DeleteUserMethod()'><b>DeleteUserMethod</b><br>Test class: DeleteUserDetail<br/>
+<a href="#Output-1552767213" onClick='toggleBox("Output-1552767213", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1552767213" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1552767213">
+User is Deleted successfully<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>DeleteUserDetail@10feca44</td></tr>
+<tr>
+<td title='GetUser.GetNewUser()'><b>GetNewUser</b><br>Test class: GetUser<br/>
+<a href="#Output-1152003603" onClick='toggleBox("Output-1152003603", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1152003603" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1152003603">
+User Id is: 1598<br/>
+User Name is : Saurabh<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>GetUser@7ea9e1e2</td></tr>
+<tr>
+<td title='GetUser.GetNewUserNegative()'><b>GetNewUserNegative</b><br>Test class: GetUser<br/>
+<a href="#Output-1256384385" onClick='toggleBox("Output-1256384385", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1256384385" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1256384385">
+Status Code is: 404<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>GetUser@7ea9e1e2</td></tr>
+<tr>
+<td title='UpdateUserDetails.UpdateUserdetails()'><b>UpdateUserdetails</b><br>Test class: UpdateUserDetails<br/>
+<a href="#Output-95545487" onClick='toggleBox("Output-95545487", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-95545487" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-95545487">
+Updated UserEmail: saurabhkumar131123@gmail.com<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>UpdateUserDetails@24fcf36f</td></tr>
+<tr>
+<td title='UpdateUserDetails.UpdateUserdetailsNegative()'><b>UpdateUserdetailsNegative</b><br>Test class: UpdateUserDetails<br/>
+<a href="#Output-516570791" onClick='toggleBox("Output-516570791", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-516570791" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-516570791">
+Status Code is : 422<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>UpdateUserDetails@24fcf36f</td></tr>
+</table><p>
+</body>
+</html>
